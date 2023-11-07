@@ -77,7 +77,7 @@ class test(models.Model):
 
 #custom field
 
-def numbereven(value):
+def number_even(value):
     if(value % 2 != 0):
         raise ValidationError('number is not even')
 
@@ -85,9 +85,30 @@ def numbereven(value):
 class EvenInteger(models.IntegerField):
     def __init__(self, *args, **kwargs):
         super(). __init__(*args, **kwargs)
-        self.validators.append(numbereven)
+        self.validators.append(number_even)
 
-class Mymodel(models.Model):
+class My_model(models.Model):
     num=EvenInteger()
 
+#Meta Class
 
+class Animal(models.Model):
+    legs = models.IntegerField()
+
+    class Meta:
+        db_table='Pets'
+        verbose_name='dog'
+
+
+class Person(models.Model):
+    name=models.CharField(max_length=100)
+    age=models.IntegerField()
+
+    class Meta:
+        abstract=True
+
+class Student(Person):
+    School=models.CharField(max_length=50)
+
+    class Meta:
+        db_table='student'
