@@ -24,14 +24,14 @@ class Customer_List_Display(DjangoObjectActions, admin.ModelAdmin):
         urls = super().get_urls()
         custom_urls = [
             path(
-                "your-model-changelist/",
-                self.your_model_changelist,
-                name="your_model_changelist",
+                "Add_10_Customers/",
+                self.Add_10_Customers,
+                name="Add_10_Customers",
             ),
         ]
         return custom_urls + urls
 
-    def your_model_changelist(self, request):
+    def Add_10_Customers(self, request):
         success = management.call_command("num_user", "10")
         if success:
             print("yay")
