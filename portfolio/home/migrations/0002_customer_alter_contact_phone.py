@@ -24,6 +24,6 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='contact',
             name='phone',
-            field=models.CharField(max_length=13, validators=[home.models.inteven]),
+            field=models.CharField(max_length=13, validators=[home.models.int_even]),
         ),
     ]

@@ -15,7 +15,7 @@ class Migration(migrations.Migration):
             name='Mymodel',
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('num', home.models.EvenInteger()),
+                ('num', home.models.Even_Integer()),
             ],
         ),
     ]
