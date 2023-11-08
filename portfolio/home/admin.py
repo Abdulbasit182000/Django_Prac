@@ -18,29 +18,25 @@ class Customer_List_Display(DjangoObjectActions, admin.ModelAdmin):
     search_fields = ("name",)
     list_filter = (Name_Filter,)
     change_list_template = "admin/customer/customer_change_list.html"
-    # changelist_actions = ('imports', )
 
     def get_urls(self):
         urls = super().get_urls()
         custom_urls = [
             path(
-                "Add_10_Customers/",
-                self.Add_10_Customers,
-                name="Add_10_Customers",
+                "Add_ten_Customers/",
+                self.add_ten_Customers,
+                name="Add_ten_Customers",
             ),
         ]
         return custom_urls + urls
 
-    def Add_10_Customers(self, request):
+    def add_ten_Customers(self, request):
         success = management.call_command("num_user", "10")
         if success:
             print("yay")
         else:
             print("error")
         return HttpResponseRedirect("../")
-
-    # def imports(modeladmin, request, queryset):
-    #     print("Imports button pushed")
 
 
 @admin.register(Contact)
@@ -49,12 +45,12 @@ class Contact_List_Display(admin.ModelAdmin):
 
 
 @admin.register(Product)
-class Product_List_Display(admin.ModelAdmin):
+class ProductListDisplay(admin.ModelAdmin):
     list_display = ("name", "price", "category")
 
 
 @admin.register(Order)
-class Order_List_Display(admin.ModelAdmin):
+class OrderListDisplay(admin.ModelAdmin):
     list_display = ("customer", "product", "date_created", "status")
     fieldsets = [
         (
@@ -70,13 +66,13 @@ class Order_List_Display(admin.ModelAdmin):
     )
     actions = ["Pending", "Out_For_Delivery", "Delivered"]
 
-    def Pending(self, request, queryset):
+    def pending(self, request, queryset):
         queryset.update(status="Pending")
 
-    def Out_For_Delivery(self, request, queryset):
+    def out_for_delivery(self, request, queryset):
         queryset.update(status="Out for Delivery")
 
-    def Delivered(self, request, queryset):
+    def delivered(self, request, queryset):
         queryset.update(status="Delivered")
 
 
