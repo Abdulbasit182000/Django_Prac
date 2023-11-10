@@ -4,19 +4,24 @@ from django.db.models.query import QuerySet
 from django.http.request import HttpRequest
 from django.http.response import HttpResponse, HttpResponseRedirect
 from .models import Contact, Customer, Product, Order, Tags, Animal
-from home.admin_filter import Name_Filter
+from home.admin_filter import NameFilter
 from django_object_actions import DjangoObjectActions
 from django.urls import path
 from subprocess import call
 from django.core import management
+import logging
+
+
+logging.basicConfig(filename="log.txt", level=logging.DEBUG,
+                    format="%(asctime)s %(message)s")
 
 
 # Register your models here.
 @admin.register(Customer)
-class Customer_List_Display(DjangoObjectActions, admin.ModelAdmin):
+class CustomerListDisplay(admin.ModelAdmin):
     list_display = ("name", "phone", "email", "date_created")
     search_fields = ("name",)
-    list_filter = (Name_Filter,)
+    list_filter = (NameFilter,)
     change_list_template = "admin/customer/customer_change_list.html"
 
     def get_urls(self):
@@ -33,14 +38,14 @@ class Customer_List_Display(DjangoObjectActions, admin.ModelAdmin):
     def add_ten_Customers(self, request):
         success = management.call_command("num_user", "10")
         if success:
-            print("yay")
+            logging.info('worked')
         else:
-            print("error")
+            logging.error('their was an error')
         return HttpResponseRedirect("../")
 
 
 @admin.register(Contact)
-class Contact_List_Display(admin.ModelAdmin):
+class ContactListDisplay(admin.ModelAdmin):
     list_display = ("name", "email", "phone")
 
 

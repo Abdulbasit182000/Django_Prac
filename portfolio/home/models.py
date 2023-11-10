@@ -70,7 +70,7 @@ class Product(models.Model):
 
 
 class Order(models.Model):
-    sTATUS = (
+    STATUS = (
         ("Pending", "Pending"),
         ("Out for Delivery", "Out for Delivery"),
         ("Delivered", "Delivered"),
@@ -80,10 +80,10 @@ class Order(models.Model):
         Product, null=True, on_delete=models.SET_NULL, db_index=True
     )
     date_created = models.DateTimeField(auto_now_add=True, null=True)
-    status = models.CharField(max_length=200, null=True, choices=sTATUS)
+    status = models.CharField(max_length=200, null=True, choices=STATUS)
 
 
-class test(models.Model):
+class Test(models.Model):
     name = models.CharField(
         max_length=20, validators=[end_with], help_text="Test to check if this works."
     )

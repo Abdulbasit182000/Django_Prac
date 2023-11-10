@@ -14,4 +14,4 @@ class Command(BaseCommand):
         count = kwargs["count"]
         faker = Faker()
         for i in range(count):
-            Customer.objects.create(name=faker.name(), phone="12345678910")
+            Customer.objects.create(name=faker.name(), phone=faker.phone_number())

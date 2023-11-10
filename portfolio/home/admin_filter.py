@@ -1,8 +1,8 @@
 from django.contrib import admin
 from .models import Customer
 
-class Name_Filter(admin.SimpleListFilter):
-    title='name filter'
+class NameFilter(admin.SimpleListFilter):
+    title='Name Filter'
     parameter_name='name'
 
     def lookups(self, request, model_admin):
