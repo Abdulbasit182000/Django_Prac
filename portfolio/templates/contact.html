@@ -1,18 +1,73 @@
 {% extends "base.html" %}
 
-{% block title %}Home | Your Website{% endblock %}
+{% load web_tags %}
+
+{% block title %}Contact | Your Website{% endblock %}
+
 {% block content %}
-<h1>Contact Us</h1>
-<form action="/contact" method="post">
-    {% csrf_token %}
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" required><br><br>
+    <style>
+        .contact-container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
 
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required><br><br>
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
 
-    <label for="phone">Phone Number:</label>
-    <input type="tel" id="phone" name="phone" required><br><br>
+        label {
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
 
-    <input type="submit" value="Submit">
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: #3498db;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #2980b9;
+        }
+
+        .total-contacts {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+
+    <div class="contact-container">
+        <h1>Contact Us</h1>
+        <form action="/contact" method="post">
+            {% csrf_token %}
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone">
+
+            <input type="submit" value="Submit">
+        </form>
+
+        <p class="total-contacts">Total Contacts: {% total_contacts %}</p>
+        {% contact_list %}  {# Include the contact list on the right-hand side #}
+    </div>
 {% endblock %}
