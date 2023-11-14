@@ -999,3 +999,392 @@ TypeError: argument of type 'NoneType' is not iterable
 2023-11-13 16:25:52,111 Watching for file changes with StatReloader
 2023-11-13 17:27:52,623 C:\Users\abdul\Django_Prac\portfolio\project\models.py changed, reloading.
 2023-11-13 17:27:54,627 Watching for file changes with StatReloader
+2023-11-14 09:51:08,340 Watching for file changes with StatReloader
+2023-11-14 09:51:20,090 Not Found: /favicon.ico
+2023-11-14 09:53:37,773 Not in REPL -> leaving logger event level as is.
+2023-11-14 09:53:37,839 Looking for locale `en_US` in provider `faker.providers.address`.
+2023-11-14 09:53:37,848 Provider `faker.providers.address` has been localized to `en_US`.
+2023-11-14 09:53:37,852 Looking for locale `en_US` in provider `faker.providers.automotive`.
+2023-11-14 09:53:37,858 Provider `faker.providers.automotive` has been localized to `en_US`.
+2023-11-14 09:53:37,860 Looking for locale `en_US` in provider `faker.providers.bank`.
+2023-11-14 09:53:37,865 Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2023-11-14 09:53:37,866 Looking for locale `en_US` in provider `faker.providers.barcode`.
+2023-11-14 09:53:37,868 Provider `faker.providers.barcode` has been localized to `en_US`.
+2023-11-14 09:53:37,870 Looking for locale `en_US` in provider `faker.providers.color`.
+2023-11-14 09:53:37,874 Provider `faker.providers.color` has been localized to `en_US`.
+2023-11-14 09:53:37,876 Looking for locale `en_US` in provider `faker.providers.company`.
+2023-11-14 09:53:37,882 Provider `faker.providers.company` has been localized to `en_US`.
+2023-11-14 09:53:37,883 Looking for locale `en_US` in provider `faker.providers.credit_card`.
+2023-11-14 09:53:37,884 Provider `faker.providers.credit_card` has been localized to `en_US`.
+2023-11-14 09:53:37,886 Looking for locale `en_US` in provider `faker.providers.currency`.
+2023-11-14 09:53:37,890 Provider `faker.providers.currency` has been localized to `en_US`.
+2023-11-14 09:53:37,892 Looking for locale `en_US` in provider `faker.providers.date_time`.
+2023-11-14 09:53:37,899 Provider `faker.providers.date_time` has been localized to `en_US`.
+2023-11-14 09:53:37,900 Provider `faker.providers.emoji` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-11-14 09:53:37,900 Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-11-14 09:53:37,900 Looking for locale `en_US` in provider `faker.providers.geo`.
+2023-11-14 09:53:37,902 Provider `faker.providers.geo` has been localized to `en_US`.
+2023-11-14 09:53:37,903 Looking for locale `en_US` in provider `faker.providers.internet`.
+2023-11-14 09:53:37,909 Provider `faker.providers.internet` has been localized to `en_US`.
+2023-11-14 09:53:37,911 Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-11-14 09:53:37,911 Looking for locale `en_US` in provider `faker.providers.job`.
+2023-11-14 09:53:37,916 Provider `faker.providers.job` has been localized to `en_US`.
+2023-11-14 09:53:37,918 Looking for locale `en_US` in provider `faker.providers.lorem`.
+2023-11-14 09:53:37,921 Provider `faker.providers.lorem` has been localized to `en_US`.
+2023-11-14 09:53:37,924 Looking for locale `en_US` in provider `faker.providers.misc`.
+2023-11-14 09:53:37,925 Provider `faker.providers.misc` has been localized to `en_US`.
+2023-11-14 09:53:37,927 Looking for locale `en_US` in provider `faker.providers.passport`.
+2023-11-14 09:53:37,928 Provider `faker.providers.passport` has been localized to `en_US`.
+2023-11-14 09:53:37,929 Looking for locale `en_US` in provider `faker.providers.person`.
+2023-11-14 09:53:37,938 Provider `faker.providers.person` has been localized to `en_US`.
+2023-11-14 09:53:37,943 Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2023-11-14 09:53:37,952 Provider `faker.providers.phone_number` has been localized to `en_US`.
+2023-11-14 09:53:37,953 Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-11-14 09:53:37,953 Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-11-14 09:53:37,953 Provider `faker.providers.sbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-11-14 09:53:37,953 Looking for locale `en_US` in provider `faker.providers.ssn`.
+2023-11-14 09:53:37,961 Provider `faker.providers.ssn` has been localized to `en_US`.
+2023-11-14 09:53:37,962 Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-11-14 09:54:00,796 Watching for file changes with StatReloader
+2023-11-14 10:00:24,451 Watching for file changes with StatReloader
+2023-11-14 10:04:42,291 C:\Users\abdul\Django_Prac\portfolio\project\models.py changed, reloading.
+2023-11-14 10:04:43,202 Watching for file changes with StatReloader
+2023-11-14 10:04:46,698 C:\Users\abdul\Django_Prac\portfolio\project\models.py changed, reloading.
+2023-11-14 10:04:50,772 Watching for file changes with StatReloader
+2023-11-14 10:05:05,758 C:\Users\abdul\Django_Prac\portfolio\project\models.py changed, reloading.
+2023-11-14 10:12:27,380 Watching for file changes with StatReloader
+2023-11-14 10:13:49,566 Not in REPL -> leaving logger event level as is.
+2023-11-14 10:13:49,633 Looking for locale `en_US` in provider `faker.providers.address`.
+2023-11-14 10:13:49,642 Provider `faker.providers.address` has been localized to `en_US`.
+2023-11-14 10:13:49,644 Looking for locale `en_US` in provider `faker.providers.automotive`.
+2023-11-14 10:13:49,651 Provider `faker.providers.automotive` has been localized to `en_US`.
+2023-11-14 10:13:49,652 Looking for locale `en_US` in provider `faker.providers.bank`.
+2023-11-14 10:13:49,656 Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2023-11-14 10:13:49,657 Looking for locale `en_US` in provider `faker.providers.barcode`.
+2023-11-14 10:13:49,658 Provider `faker.providers.barcode` has been localized to `en_US`.
+2023-11-14 10:13:49,660 Looking for locale `en_US` in provider `faker.providers.color`.
+2023-11-14 10:13:49,664 Provider `faker.providers.color` has been localized to `en_US`.
+2023-11-14 10:13:49,665 Looking for locale `en_US` in provider `faker.providers.company`.
+2023-11-14 10:13:49,671 Provider `faker.providers.company` has been localized to `en_US`.
+2023-11-14 10:13:49,672 Looking for locale `en_US` in provider `faker.providers.credit_card`.
+2023-11-14 10:13:49,673 Provider `faker.providers.credit_card` has been localized to `en_US`.
+2023-11-14 10:13:49,673 Looking for locale `en_US` in provider `faker.providers.currency`.
+2023-11-14 10:13:49,677 Provider `faker.providers.currency` has been localized to `en_US`.
+2023-11-14 10:13:49,678 Looking for locale `en_US` in provider `faker.providers.date_time`.
+2023-11-14 10:13:49,685 Provider `faker.providers.date_time` has been localized to `en_US`.
+2023-11-14 10:13:49,686 Provider `faker.providers.emoji` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-11-14 10:13:49,686 Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-11-14 10:13:49,686 Looking for locale `en_US` in provider `faker.providers.geo`.
+2023-11-14 10:13:49,688 Provider `faker.providers.geo` has been localized to `en_US`.
+2023-11-14 10:13:49,689 Looking for locale `en_US` in provider `faker.providers.internet`.
+2023-11-14 10:13:49,695 Provider `faker.providers.internet` has been localized to `en_US`.
+2023-11-14 10:13:49,696 Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-11-14 10:13:49,696 Looking for locale `en_US` in provider `faker.providers.job`.
+2023-11-14 10:13:49,701 Provider `faker.providers.job` has been localized to `en_US`.
+2023-11-14 10:13:49,702 Looking for locale `en_US` in provider `faker.providers.lorem`.
+2023-11-14 10:13:49,707 Provider `faker.providers.lorem` has been localized to `en_US`.
+2023-11-14 10:13:49,708 Looking for locale `en_US` in provider `faker.providers.misc`.
+2023-11-14 10:13:49,709 Provider `faker.providers.misc` has been localized to `en_US`.
+2023-11-14 10:13:49,710 Looking for locale `en_US` in provider `faker.providers.passport`.
+2023-11-14 10:13:49,711 Provider `faker.providers.passport` has been localized to `en_US`.
+2023-11-14 10:13:49,712 Looking for locale `en_US` in provider `faker.providers.person`.
+2023-11-14 10:13:49,722 Provider `faker.providers.person` has been localized to `en_US`.
+2023-11-14 10:13:49,725 Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2023-11-14 10:13:49,733 Provider `faker.providers.phone_number` has been localized to `en_US`.
+2023-11-14 10:13:49,735 Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-11-14 10:13:49,735 Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-11-14 10:13:49,735 Provider `faker.providers.sbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-11-14 10:13:49,735 Looking for locale `en_US` in provider `faker.providers.ssn`.
+2023-11-14 10:13:49,744 Provider `faker.providers.ssn` has been localized to `en_US`.
+2023-11-14 10:13:49,745 Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2023-11-14 10:15:34,968 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 10:15:35,856 Watching for file changes with StatReloader
+2023-11-14 10:15:39,186 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 10:15:40,002 Watching for file changes with StatReloader
+2023-11-14 10:15:41,287 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 10:15:42,158 Watching for file changes with StatReloader
+2023-11-14 10:15:44,465 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 10:15:45,315 Watching for file changes with StatReloader
+2023-11-14 10:15:47,614 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 10:15:48,469 Watching for file changes with StatReloader
+2023-11-14 10:16:03,171 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 10:16:04,025 Watching for file changes with StatReloader
+2023-11-14 10:16:05,309 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 10:16:06,126 Watching for file changes with StatReloader
+2023-11-14 10:16:13,637 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 10:16:14,502 Watching for file changes with StatReloader
+2023-11-14 10:16:16,800 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 10:16:17,597 Watching for file changes with StatReloader
+2023-11-14 10:16:18,881 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 10:16:19,751 Watching for file changes with StatReloader
+2023-11-14 10:16:24,158 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 10:16:25,059 Watching for file changes with StatReloader
+2023-11-14 10:16:33,603 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 10:16:34,454 Watching for file changes with StatReloader
+2023-11-14 10:16:35,760 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 10:16:36,642 Watching for file changes with StatReloader
+2023-11-14 10:16:37,911 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 10:16:38,741 Watching for file changes with StatReloader
+2023-11-14 10:16:40,010 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 10:16:40,932 Watching for file changes with StatReloader
+2023-11-14 10:16:57,713 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 10:16:58,592 Watching for file changes with StatReloader
+2023-11-14 10:17:51,980 Watching for file changes with StatReloader
+2023-11-14 10:19:09,582 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 10:19:10,527 Watching for file changes with StatReloader
+2023-11-14 10:19:19,966 Watching for file changes with StatReloader
+2023-11-14 15:25:08,069 Watching for file changes with StatReloader
+2023-11-14 16:10:14,487 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:10:15,374 Watching for file changes with StatReloader
+2023-11-14 16:10:19,934 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:10:20,837 Watching for file changes with StatReloader
+2023-11-14 16:10:37,675 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:10:38,528 Watching for file changes with StatReloader
+2023-11-14 16:10:46,158 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:10:47,027 Watching for file changes with StatReloader
+2023-11-14 16:10:50,527 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:10:51,410 Watching for file changes with StatReloader
+2023-11-14 16:11:16,918 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:11:17,777 Watching for file changes with StatReloader
+2023-11-14 16:11:19,129 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:11:20,005 Watching for file changes with StatReloader
+2023-11-14 16:11:21,339 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:11:22,239 Watching for file changes with StatReloader
+2023-11-14 16:11:27,661 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:11:28,539 Watching for file changes with StatReloader
+2023-11-14 16:12:04,235 Watching for file changes with StatReloader
+2023-11-14 16:12:26,216 Internal Server Error: /admin/project/patient/
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\contrib\admin\options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\contrib\admin\options.py", line 836, in get_changelist_instance
+    return ChangeList(
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\contrib\admin\views\main.py", line 122, in __init__
+    self.queryset = self.get_queryset(request)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\contrib\admin\views\main.py", line 507, in get_queryset
+    new_qs = filter_spec.queryset(request, qs)
+  File "C:\Users\abdul\Django_Prac\portfolio\project\admin.py", line 21, in queryset
+    queryset = queryset.filter(date_admitted__gte=timezone.now() - timedelta(days=7))
+NameError: name 'timezone' is not defined
+2023-11-14 16:13:23,532 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:13:24,465 Watching for file changes with StatReloader
+2023-11-14 16:13:25,839 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:13:26,710 Watching for file changes with StatReloader
+2023-11-14 16:14:04,748 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:14:05,644 Watching for file changes with StatReloader
+2023-11-14 16:14:16,490 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:14:17,311 Watching for file changes with StatReloader
+2023-11-14 16:14:21,677 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:14:22,559 Watching for file changes with StatReloader
+2023-11-14 16:14:26,030 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:14:26,899 Watching for file changes with StatReloader
+2023-11-14 16:14:30,344 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:14:31,220 Watching for file changes with StatReloader
+2023-11-14 16:14:35,721 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:14:36,590 Watching for file changes with StatReloader
+2023-11-14 16:15:45,320 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:15:46,224 Watching for file changes with StatReloader
+2023-11-14 16:16:00,225 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:16:01,148 Watching for file changes with StatReloader
+2023-11-14 16:16:17,168 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:16:18,100 Watching for file changes with StatReloader
+2023-11-14 16:16:41,643 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:16:42,577 Watching for file changes with StatReloader
+2023-11-14 16:16:45,930 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:16:46,772 Watching for file changes with StatReloader
+2023-11-14 16:20:49,621 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:20:50,516 Watching for file changes with StatReloader
+2023-11-14 16:20:57,149 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:20:58,017 Watching for file changes with StatReloader
+2023-11-14 16:21:03,557 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:21:04,479 Watching for file changes with StatReloader
+2023-11-14 16:21:16,332 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:21:17,308 Watching for file changes with StatReloader
+2023-11-14 16:21:18,666 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:21:19,515 Watching for file changes with StatReloader
+2023-11-14 16:21:21,823 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:21:22,656 Watching for file changes with StatReloader
+2023-11-14 16:21:24,975 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:21:25,937 Watching for file changes with StatReloader
+2023-11-14 16:21:49,315 Watching for file changes with StatReloader
+2023-11-14 16:26:27,115 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:26:28,400 Watching for file changes with StatReloader
+2023-11-14 16:26:29,760 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:26:30,675 Watching for file changes with StatReloader
+2023-11-14 16:26:37,287 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:26:38,147 Watching for file changes with StatReloader
+2023-11-14 16:26:39,446 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:26:40,288 Watching for file changes with StatReloader
+2023-11-14 16:26:45,821 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:26:46,713 Watching for file changes with StatReloader
+2023-11-14 16:32:23,704 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:32:24,647 Watching for file changes with StatReloader
+2023-11-14 16:32:29,141 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:32:30,075 Watching for file changes with StatReloader
+2023-11-14 16:32:35,644 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:32:36,525 Watching for file changes with StatReloader
+2023-11-14 16:32:41,006 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:32:41,925 Watching for file changes with StatReloader
+2023-11-14 16:32:43,289 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:32:44,146 Watching for file changes with StatReloader
+2023-11-14 16:32:46,594 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:32:47,463 Watching for file changes with StatReloader
+2023-11-14 16:32:49,869 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:32:50,804 Watching for file changes with StatReloader
+2023-11-14 16:32:52,173 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:32:53,080 Watching for file changes with StatReloader
+2023-11-14 16:32:56,539 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:32:57,419 Watching for file changes with StatReloader
+2023-11-14 16:33:06,124 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:33:07,012 Watching for file changes with StatReloader
+2023-11-14 16:33:10,509 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:33:11,367 Watching for file changes with StatReloader
+2023-11-14 16:33:16,904 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:33:17,732 Watching for file changes with StatReloader
+2023-11-14 16:33:19,013 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:33:19,827 Watching for file changes with StatReloader
+2023-11-14 16:33:23,167 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:33:24,047 Watching for file changes with StatReloader
+2023-11-14 16:33:25,315 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:33:26,130 Watching for file changes with StatReloader
+2023-11-14 16:33:33,626 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:33:34,479 Watching for file changes with StatReloader
+2023-11-14 16:33:36,904 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:33:37,785 Watching for file changes with StatReloader
+2023-11-14 16:33:40,205 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:33:41,083 Watching for file changes with StatReloader
+2023-11-14 16:33:45,591 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:33:46,532 Watching for file changes with StatReloader
+2023-11-14 16:40:52,128 Watching for file changes with StatReloader
+2023-11-14 16:41:13,509 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:41:14,406 Watching for file changes with StatReloader
+2023-11-14 16:41:29,226 Internal Server Error: /admin/project/patient/
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\contrib\admin\options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\contrib\admin\options.py", line 836, in get_changelist_instance
+    return ChangeList(
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\contrib\admin\views\main.py", line 122, in __init__
+    self.queryset = self.get_queryset(request)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\contrib\admin\views\main.py", line 507, in get_queryset
+    new_qs = filter_spec.queryset(request, qs)
+  File "C:\Users\abdul\Django_Prac\portfolio\project\admin.py", line 37, in queryset
+    queryset = queryset.filter(doctor=x)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\fields\related_lookups.py", line 168, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\lookups.py", line 337, in get_prep_lookup
+    raise ValueError(
+ValueError: The QuerySet value for an exact lookup must be limited to one result using slicing.
+2023-11-14 16:43:33,452 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:43:34,308 Watching for file changes with StatReloader
+2023-11-14 16:43:40,760 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:43:41,612 Watching for file changes with StatReloader
+2023-11-14 16:43:47,019 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:43:47,862 Watching for file changes with StatReloader
+2023-11-14 16:43:50,173 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:43:51,071 Watching for file changes with StatReloader
+2023-11-14 16:43:55,584 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:43:56,478 Watching for file changes with StatReloader
+2023-11-14 16:44:03,004 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:44:03,869 Watching for file changes with StatReloader
+2023-11-14 16:44:07,265 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:44:08,153 Watching for file changes with StatReloader
+2023-11-14 16:44:17,963 Internal Server Error: /admin/project/patient/
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\contrib\admin\options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\contrib\admin\options.py", line 836, in get_changelist_instance
+    return ChangeList(
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\contrib\admin\views\main.py", line 122, in __init__
+    self.queryset = self.get_queryset(request)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\contrib\admin\views\main.py", line 507, in get_queryset
+    new_qs = filter_spec.queryset(request, qs)
+  File "C:\Users\abdul\Django_Prac\portfolio\project\admin.py", line 37, in queryset
+    queryset = queryset.filter(doctor=x)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\fields\related_lookups.py", line 168, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\lookups.py", line 337, in get_prep_lookup
+    raise ValueError(
+ValueError: The QuerySet value for an exact lookup must be limited to one result using slicing.
+2023-11-14 16:45:28,418 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-14 16:45:29,355 Watching for file changes with StatReloader

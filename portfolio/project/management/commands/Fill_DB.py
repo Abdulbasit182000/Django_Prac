@@ -31,17 +31,18 @@ class Command(BaseCommand):
                 name=faker.name(),
                 age=faker.random_int(min=18, max=90),
                 nurse=random.choice(nurses),
+                date_admitted=faker.date(),
             )
-            patient.doctor.set(random.sample(doctors, k=faker.random_int(1, 3)))
+            patient.doctor.set(random.sample(doctors, k=faker.random_int(1, 10)))
         patients = list(Patient.objects.all())
         for _ in range(count):
-            MedicalRecord.objects.create(
+            MedicalRecord.objects.create( #Fake Record
                 patient=random.choice(patients),
                 diagnoses=faker.sentence(),
                 perscription=faker.paragraph(),
             )
         for i in range(len(patients)):
-            hospital= Hospital.objects.create(
+            hospital= Hospital.objects.create( #Fake Hospital Record
                 patient=patients[i],
                 nurse= patients[i].nurse,
             )
