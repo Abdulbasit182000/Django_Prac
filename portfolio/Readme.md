@@ -1,3 +1,5 @@
+-To run Querysets uses the 'project' app.
+
 -To Fill Database write: 500 is the number to rows to populate database
 
         py manage.py Fill_DB 500
