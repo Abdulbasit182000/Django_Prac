@@ -17,12 +17,12 @@ class Command(BaseCommand):
             Doctor.objects.create(
                 name=faker.name(),
                 specialization=faker.job(),
-                contact_number=faker.phone_number,
+                contact_number=faker.phone_number(),
             )
         for _ in range(count):  # Fake Nurse Data
             Nurse.objects.create(
                 name=faker.name(),
-                contact_number=faker.phone_number,
+                contact_number=faker.phone_number(),
             )
         doctors = list(Doctor.objects.all())
         nurses = list(Nurse.objects.all())

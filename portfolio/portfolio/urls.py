@@ -24,5 +24,6 @@ admin.site.index_title='Random Text'
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('home.urls'))
+    path('', include('home.urls')),
+    path("__debug__/", include("debug_toolbar.urls")),
 ]

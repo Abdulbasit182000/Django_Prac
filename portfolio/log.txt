@@ -1388,3 +1388,231 @@ Traceback (most recent call last):
 ValueError: The QuerySet value for an exact lookup must be limited to one result using slicing.
 2023-11-14 16:45:28,418 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
 2023-11-14 16:45:29,355 Watching for file changes with StatReloader
+2023-11-15 11:34:54,980 Watching for file changes with StatReloader
+2023-11-15 11:34:55,416 Not Found: /favicon.ico
+2023-11-15 13:04:13,897 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:04:14,905 Watching for file changes with StatReloader
+2023-11-15 13:04:16,262 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:04:17,152 Watching for file changes with StatReloader
+2023-11-15 13:04:25,848 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:04:26,806 Watching for file changes with StatReloader
+2023-11-15 13:04:30,295 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:04:31,189 Watching for file changes with StatReloader
+2023-11-15 13:04:43,031 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:04:43,949 Watching for file changes with StatReloader
+2023-11-15 13:04:48,442 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:04:49,321 Watching for file changes with StatReloader
+2023-11-15 13:04:57,994 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:04:58,872 Watching for file changes with StatReloader
+2023-11-15 13:05:05,475 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:05:06,322 Watching for file changes with StatReloader
+2023-11-15 13:05:09,793 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:05:10,672 Watching for file changes with StatReloader
+2023-11-15 13:05:19,380 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:05:20,281 Watching for file changes with StatReloader
+2023-11-15 13:05:26,876 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:05:27,729 Watching for file changes with StatReloader
+2023-11-15 13:05:33,263 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:05:34,148 Watching for file changes with StatReloader
+2023-11-15 13:05:39,693 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:05:40,547 Watching for file changes with StatReloader
+2023-11-15 13:05:41,911 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:05:42,817 Watching for file changes with StatReloader
+2023-11-15 13:05:44,182 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:05:45,080 Watching for file changes with StatReloader
+2023-11-15 13:05:49,586 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:05:50,486 Watching for file changes with StatReloader
+2023-11-15 13:05:53,940 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:05:54,860 Watching for file changes with StatReloader
+2023-11-15 13:05:58,319 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:05:59,188 Watching for file changes with StatReloader
+2023-11-15 13:06:01,585 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:06:02,471 Watching for file changes with StatReloader
+2023-11-15 13:06:04,885 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:06:05,752 Watching for file changes with StatReloader
+2023-11-15 13:06:09,199 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:06:10,148 Watching for file changes with StatReloader
+2023-11-15 13:06:12,591 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:06:13,485 Watching for file changes with StatReloader
+2023-11-15 13:06:14,823 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:06:15,671 Watching for file changes with StatReloader
+2023-11-15 13:06:24,158 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:06:25,057 Watching for file changes with StatReloader
+2023-11-15 13:06:26,412 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:06:27,270 Watching for file changes with StatReloader
+2023-11-15 13:06:28,599 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:06:29,528 Watching for file changes with StatReloader
+2023-11-15 13:06:30,869 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:06:31,799 Watching for file changes with StatReloader
+2023-11-15 13:06:33,162 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:06:34,071 Watching for file changes with StatReloader
+2023-11-15 13:06:35,438 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:06:36,328 Watching for file changes with StatReloader
+2023-11-15 13:06:42,938 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:06:43,849 Watching for file changes with StatReloader
+2023-11-15 13:06:52,588 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:06:53,484 Watching for file changes with StatReloader
+2023-11-15 13:07:04,235 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:07:05,111 Watching for file changes with StatReloader
+2023-11-15 13:07:30,224 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:07:31,128 Watching for file changes with StatReloader
+2023-11-15 13:07:35,639 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:07:36,551 Watching for file changes with StatReloader
+2023-11-15 13:07:47,387 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:07:48,376 Watching for file changes with StatReloader
+2023-11-15 13:07:55,013 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:07:55,870 Watching for file changes with StatReloader
+2023-11-15 13:08:00,359 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:08:01,235 Watching for file changes with StatReloader
+2023-11-15 13:08:04,682 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:08:05,509 Watching for file changes with StatReloader
+2023-11-15 13:08:06,795 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:08:07,740 Watching for file changes with StatReloader
+2023-11-15 13:08:10,152 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:08:11,021 Watching for file changes with StatReloader
+2023-11-15 13:08:12,306 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:08:13,137 Watching for file changes with StatReloader
+2023-11-15 13:08:17,536 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:08:18,369 Watching for file changes with StatReloader
+2023-11-15 13:08:22,730 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:08:23,609 Watching for file changes with StatReloader
+2023-11-15 13:08:24,888 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:08:25,748 Watching for file changes with StatReloader
+2023-11-15 13:08:29,068 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:08:29,892 Watching for file changes with StatReloader
+2023-11-15 13:08:31,166 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:08:32,033 Watching for file changes with StatReloader
+2023-11-15 13:08:34,362 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:08:35,221 Watching for file changes with StatReloader
+2023-11-15 13:08:36,509 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:08:37,388 Watching for file changes with StatReloader
+2023-11-15 13:08:39,697 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:08:40,585 Watching for file changes with StatReloader
+2023-11-15 13:08:42,916 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:08:43,816 Watching for file changes with StatReloader
+2023-11-15 13:08:47,172 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:08:48,028 Watching for file changes with StatReloader
+2023-11-15 13:08:52,418 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:08:53,301 Watching for file changes with StatReloader
+2023-11-15 13:09:07,230 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:09:08,185 Watching for file changes with StatReloader
+2023-11-15 13:09:13,744 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:09:14,614 Watching for file changes with StatReloader
+2023-11-15 13:09:16,949 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:09:17,846 Watching for file changes with StatReloader
+2023-11-15 13:09:19,180 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:09:20,062 Watching for file changes with StatReloader
+2023-11-15 13:09:21,336 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:09:22,257 Watching for file changes with StatReloader
+2023-11-15 13:09:26,768 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:09:27,704 Watching for file changes with StatReloader
+2023-11-15 13:09:32,228 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:09:33,121 Watching for file changes with StatReloader
+2023-11-15 13:09:35,521 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:09:36,394 Watching for file changes with StatReloader
+2023-11-15 13:09:38,796 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:09:39,695 Watching for file changes with StatReloader
+2023-11-15 13:09:42,115 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:09:43,010 Watching for file changes with StatReloader
+2023-11-15 13:09:47,510 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:09:48,415 Watching for file changes with StatReloader
+2023-11-15 13:09:55,030 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:09:55,943 Watching for file changes with StatReloader
+2023-11-15 13:09:57,321 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:09:58,216 Watching for file changes with StatReloader
+2023-11-15 13:09:59,581 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:10:00,454 Watching for file changes with StatReloader
+2023-11-15 13:10:06,039 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:10:06,900 Watching for file changes with StatReloader
+2023-11-15 13:10:10,372 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:10:11,246 Watching for file changes with StatReloader
+2023-11-15 13:10:13,637 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:10:14,501 Watching for file changes with StatReloader
+2023-11-15 13:10:21,344 Watching for file changes with StatReloader
+2023-11-15 13:10:50,340 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:10:51,236 Watching for file changes with StatReloader
+2023-11-15 13:10:52,599 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:10:53,478 Watching for file changes with StatReloader
+2023-11-15 13:10:58,902 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:10:59,753 Watching for file changes with StatReloader
+2023-11-15 13:11:02,064 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:11:02,983 Watching for file changes with StatReloader
+2023-11-15 13:11:09,429 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:11:10,286 Watching for file changes with StatReloader
+2023-11-15 13:11:13,648 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 13:11:14,568 Watching for file changes with StatReloader
+2023-11-15 14:28:53,022 Watching for file changes with StatReloader
+2023-11-15 15:54:51,778 Internal Server Error: /admin/project/patient/add/
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abdul\Django_Prac\portfolio\middleware\main.py", line 14, in __call__
+    if not self.is_valid(data):
+  File "C:\Users\abdul\Django_Prac\portfolio\middleware\main.py", line 22, in is_valid
+    if field not in data or not data[field]:
+TypeError: argument of type 'NoneType' is not iterable
+2023-11-15 17:38:23,438 Watching for file changes with StatReloader
+2023-11-15 18:34:47,553 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 18:34:48,642 Watching for file changes with StatReloader
+2023-11-15 18:34:50,050 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 18:34:51,093 Watching for file changes with StatReloader
+2023-11-15 18:34:54,620 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 18:34:55,639 Watching for file changes with StatReloader
+2023-11-15 18:35:04,501 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 18:35:05,535 Watching for file changes with StatReloader
+2023-11-15 18:35:06,912 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 18:35:07,909 Watching for file changes with StatReloader
+2023-11-15 18:35:17,822 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 18:35:18,859 Watching for file changes with StatReloader
+2023-11-15 18:35:23,456 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 18:35:24,457 Watching for file changes with StatReloader
+2023-11-15 18:35:33,297 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 18:35:34,364 Watching for file changes with StatReloader
+2023-11-15 18:35:48,584 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 18:35:49,560 Watching for file changes with StatReloader
+2023-11-15 18:35:50,904 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 18:35:51,911 Watching for file changes with StatReloader
+2023-11-15 18:35:55,423 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 18:35:56,375 Watching for file changes with StatReloader
+2023-11-15 18:35:59,775 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 18:36:00,697 Watching for file changes with StatReloader
+2023-11-15 18:36:01,996 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 18:36:02,910 Watching for file changes with StatReloader
+2023-11-15 18:36:08,379 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 18:36:09,402 Watching for file changes with StatReloader
+2023-11-15 18:36:10,800 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 18:36:11,810 Watching for file changes with StatReloader
+2023-11-15 18:36:13,222 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 18:36:14,174 Watching for file changes with StatReloader
+2023-11-15 18:36:17,601 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 18:36:18,608 Watching for file changes with StatReloader
+2023-11-15 18:36:19,999 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 18:36:20,999 Watching for file changes with StatReloader
+2023-11-15 18:36:36,254 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 18:36:37,231 Watching for file changes with StatReloader
+2023-11-15 18:36:38,654 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 18:36:39,673 Watching for file changes with StatReloader
+2023-11-15 18:36:45,350 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 18:36:46,386 Watching for file changes with StatReloader
+2023-11-15 18:36:55,243 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 18:36:56,258 Watching for file changes with StatReloader
+2023-11-15 18:36:59,798 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 18:37:00,750 Watching for file changes with StatReloader
+2023-11-15 18:37:04,141 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 18:37:05,137 Watching for file changes with StatReloader
+2023-11-15 18:37:08,662 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 18:37:09,632 Watching for file changes with StatReloader
+2023-11-15 18:37:10,951 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 18:37:11,956 Watching for file changes with StatReloader
+2023-11-15 18:37:22,947 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 18:37:23,927 Watching for file changes with StatReloader
+2023-11-15 18:37:25,254 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 18:37:26,290 Watching for file changes with StatReloader
+2023-11-15 18:37:28,765 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 18:37:29,751 Watching for file changes with StatReloader
+2023-11-15 18:37:31,138 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 18:37:32,145 Watching for file changes with StatReloader
+2023-11-15 18:39:36,350 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 18:39:37,350 Watching for file changes with StatReloader
+2023-11-15 18:39:38,708 C:\Users\abdul\Django_Prac\portfolio\project\admin.py changed, reloading.
+2023-11-15 18:39:39,681 Watching for file changes with StatReloader
