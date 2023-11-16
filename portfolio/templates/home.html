@@ -3,7 +3,41 @@
 {% block title %}Home | Your Website{% endblock %}
 
 {% block content %}
-    <h1>Welcome to the Home Page</h1>
-    <p>This is the home page content.</p>
-    <!-- Add more content specific to the home page here -->
+    <style>
+        .home-container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .hero-section {
+            text-align: center;
+            padding: 20px;
+            background-color: #3498db;
+            color: #fff;
+            border-radius: 8px 8px 0 0;
+        }
+
+        .main-content {
+            padding: 20px;
+        }
+
+        /* Add more styles as needed */
+    </style>
+
+    <div class="home-container">
+        <section class="hero-section">
+            <h1>Welcome to Your Awesome Website</h1>
+            <p>Discover the amazing content we have for you.</p>
+        </section>
+
+        <section class="main-content">
+            <h2>Featured Content</h2>
+            <p>This is the home page content. Feel free to add more engaging information about your website.</p>
+            <!-- Add more content specific to the home page here -->
+        </section>
+    </div>
 {% endblock %}

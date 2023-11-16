@@ -3,7 +3,7 @@ from django.contrib import admin
 from django.db.models.query import QuerySet
 from django.http.request import HttpRequest
 from django.http.response import HttpResponse, HttpResponseRedirect
-from .models import Contact, Customer, Product, Order, Tags, Animal
+from .models import Contact, Customer, Product, Order, Tags, Animal, User
 from home.admin_filter import NameFilter
 from django_object_actions import DjangoObjectActions
 from django.urls import path
@@ -83,3 +83,4 @@ class OrderListDisplay(admin.ModelAdmin):
 
 admin.site.register(Tags)
 admin.site.register(Animal)
+admin.site.register(User)

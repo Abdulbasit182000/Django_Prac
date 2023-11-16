@@ -1,6 +1,7 @@
-from typing import Any
 from django.db import models
 from django.core.exceptions import ValidationError
+from django.contrib.contenttypes.fields import GenericForeignKey
+from django.contrib.contenttypes.models import ContentType
 
 
 # Custom Validators
@@ -22,7 +23,7 @@ def number_even(value):
 # Model Classes
 class Contact(models.Model):
     name = models.CharField(max_length=30)
-    email = models.EmailField()
+    email = models.EmailField(error_messages="email not of correct type")
     phone = models.CharField(max_length=13, validators=[int_even])
 
     def __str__(self):
@@ -31,7 +32,7 @@ class Contact(models.Model):
 
 class Customer(models.Model):
     name = models.CharField(max_length=200, null=True)
-    phone = models.CharField(max_length=200, null=True)
+    phone = models.CharField(max_length=200, null=True, editable=True)
     email = models.CharField(max_length=200, null=True, unique=True)
     date_created = models.DateTimeField(auto_now_add=True, null=True)
 
@@ -40,7 +41,7 @@ class Customer(models.Model):
 
 
 class Tags(models.Model):
-    name = models.CharField(max_length=200, null=True)
+    name = models.CharField(max_length=200, null=True, help_text="Name of Tag")
 
     def __str__(self):
         return self.name
@@ -80,7 +81,7 @@ class Order(models.Model):
         Product, null=True, on_delete=models.SET_NULL, db_index=True
     )
     date_created = models.DateTimeField(auto_now_add=True, null=True)
-    status = models.CharField(max_length=200, null=True, choices=STATUS)
+    status = models.CharField(max_length=200, null=True, choices=STATUS, blank=False)
 
 
 class Test(models.Model):
@@ -115,8 +116,30 @@ class Person(models.Model):
         abstract = True
 
 
+class User(models.Model):
+    name = models.CharField(max_length=100)
+    age = models.IntegerField()
+
+
+class Employee(User):
+    class Meta:
+        ordering = ("name", "age")
+        proxy = True
+
+
 class Student(Person):
     School = models.CharField(primary_key=True, max_length=50)
 
     class Meta:
         db_table = "student"
+
+
+class Comment(models.Model):
+    content_type = models.ForeignKey(ContentType, on_delete=models.CASCADE)
+    object_id = models.PositiveIntegerField()
+    content_object = GenericForeignKey("content_type", "object_id")
+    text = models.TextField()
+
+
+class Post(models.Model):
+    title = models.CharField(max_length=100)
