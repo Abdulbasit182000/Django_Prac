@@ -21,8 +21,8 @@ class Nurse(models.Model):
 class Patient(models.Model):
     name = models.CharField(max_length=100)
     age = models.IntegerField()
-    doctor = models.ManyToManyField(Doctor, related_name="doctor_of")
-    nurse = models.ForeignKey(Nurse, on_delete=models.CASCADE, related_name="Patients")
+    doctor = models.ManyToManyField(Doctor, related_name="patients")
+    nurse = models.ForeignKey(Nurse, on_delete=models.CASCADE, related_name="patients")
     date_admitted = models.DateField(null=True, blank=True)
 
     def __str__(self):
@@ -31,15 +31,15 @@ class Patient(models.Model):
 
 class Hospital(models.Model):
     patient = models.ForeignKey(
-        Patient, on_delete=models.CASCADE, related_name="Hospitals"
+        Patient, on_delete=models.CASCADE, related_name="hospitals"
     )
-    doctor = models.ManyToManyField(Doctor)
-    nurse = models.ForeignKey(Nurse, on_delete=models.CASCADE)
+    doctor = models.ManyToManyField(Doctor, related_name='hospitals')
+    nurse = models.ForeignKey(Nurse, on_delete=models.CASCADE, default=1)
 
 
 class MedicalRecord(models.Model):
     patient = models.ForeignKey(
-        Patient, on_delete=models.CASCADE, related_name="Medical_Records"
+        Patient, on_delete=models.CASCADE, related_name="records"
     )
     diagnoses = models.TextField()
     perscription = models.TextField()
