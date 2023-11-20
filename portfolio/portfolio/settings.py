@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     "django_object_actions",
     'django_extensions',
     "debug_toolbar",
+    'rest_framework',
 ]
 
 
