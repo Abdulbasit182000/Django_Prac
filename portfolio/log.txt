@@ -2693,3 +2693,1228 @@ django.urls.exceptions.NoReverseMatch: Reverse for 'author-detail' with keyword 
 2023-11-16 18:54:53,037 Watching for file changes with StatReloader
 2023-11-16 18:57:53,378 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
 2023-11-16 18:57:54,379 Watching for file changes with StatReloader
+2023-11-17 19:18:27,644 Watching for file changes with StatReloader
+2023-11-17 19:18:39,527 Internal Server Error: /multi
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 180, in get
+    return super().get(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 144, in get
+    return self.render_to_response(self.get_context_data())
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 74, in get_context_data
+    kwargs["form"] = self.get_form()
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 38, in get_form
+    form_class = self.get_form_class()
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 102, in get_form_class
+    model = self.get_queryset().model
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\detail.py", line 72, in get_queryset
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: MultiCreateView is missing a QuerySet. Define MultiCreateView.model, MultiCreateView.queryset, or override MultiCreateView.get_queryset().
+2023-11-17 19:19:49,167 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-17 19:19:50,216 Watching for file changes with StatReloader
+2023-11-17 19:19:52,712 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-17 19:19:53,781 Watching for file changes with StatReloader
+2023-11-17 19:19:57,345 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-17 19:19:58,399 Watching for file changes with StatReloader
+2023-11-17 19:20:04,822 Internal Server Error: /multi
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 180, in get
+    return super().get(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 144, in get
+    return self.render_to_response(self.get_context_data())
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 74, in get_context_data
+    kwargs["form"] = self.get_form()
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 38, in get_form
+    form_class = self.get_form_class()
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 105, in get_form_class
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Using ModelFormMixin (base class of MultiCreateView) without the 'fields' attribute is prohibited.
+2023-11-17 19:21:02,770 C:\Users\abdul\Django_Prac\portfolio\project\forms.py changed, reloading.
+2023-11-17 19:21:03,837 Watching for file changes with StatReloader
+2023-11-17 19:21:04,938 Internal Server Error: /multi
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 180, in get
+    return super().get(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 144, in get
+    return self.render_to_response(self.get_context_data())
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 74, in get_context_data
+    kwargs["form"] = self.get_form()
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 38, in get_form
+    form_class = self.get_form_class()
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 105, in get_form_class
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Using ModelFormMixin (base class of MultiCreateView) without the 'fields' attribute is prohibited.
+2023-11-17 19:23:47,953 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-17 19:23:49,040 Watching for file changes with StatReloader
+2023-11-17 19:23:50,462 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-17 19:23:51,521 Watching for file changes with StatReloader
+2023-11-17 19:23:56,104 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-17 19:23:57,146 Watching for file changes with StatReloader
+2023-11-17 19:24:41,619 Internal Server Error: /multi
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 180, in get
+    return super().get(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 144, in get
+    return self.render_to_response(self.get_context_data())
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 74, in get_context_data
+    kwargs["form"] = self.get_form()
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 38, in get_form
+    form_class = self.get_form_class()
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 105, in get_form_class
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Using ModelFormMixin (base class of MultiCreateView) without the 'fields' attribute is prohibited.
+2023-11-20 14:46:27,793 Watching for file changes with StatReloader
+2023-11-20 14:46:36,719 Not Found: /favicon.ico
+2023-11-20 14:46:44,432 Not Found: /muli
+2023-11-20 14:46:48,508 Internal Server Error: /multi
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 180, in get
+    return super().get(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 144, in get
+    return self.render_to_response(self.get_context_data())
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 74, in get_context_data
+    kwargs["form"] = self.get_form()
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 38, in get_form
+    form_class = self.get_form_class()
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 105, in get_form_class
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Using ModelFormMixin (base class of MultiCreateView) without the 'fields' attribute is prohibited.
+2023-11-20 14:49:31,768 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 14:49:33,997 Watching for file changes with StatReloader
+2023-11-20 14:49:38,085 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 14:49:40,251 Watching for file changes with StatReloader
+2023-11-20 14:49:44,223 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 14:49:45,995 Watching for file changes with StatReloader
+2023-11-20 14:49:48,736 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 14:49:50,585 Watching for file changes with StatReloader
+2023-11-20 14:53:20,910 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 14:53:21,927 Watching for file changes with StatReloader
+2023-11-20 14:53:25,498 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 14:53:26,469 Watching for file changes with StatReloader
+2023-11-20 14:53:29,962 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 14:53:30,909 Watching for file changes with StatReloader
+2023-11-20 14:53:40,761 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 14:53:41,762 Watching for file changes with StatReloader
+2023-11-20 14:53:44,216 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 14:53:45,239 Watching for file changes with StatReloader
+2023-11-20 14:53:54,022 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 14:53:55,048 Watching for file changes with StatReloader
+2023-11-20 14:54:00,671 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 14:54:01,680 Watching for file changes with StatReloader
+2023-11-20 14:54:05,187 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 14:54:06,183 Watching for file changes with StatReloader
+2023-11-20 14:54:08,615 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 14:54:09,593 Watching for file changes with StatReloader
+2023-11-20 14:56:49,062 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 14:56:50,153 Watching for file changes with StatReloader
+2023-11-20 14:56:52,255 Internal Server Error: /author/
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: as_view() takes 1 positional argument but 2 were given
+2023-11-20 14:57:27,029 Internal Server Error: /author/
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: as_view() takes 1 positional argument but 2 were given
+2023-11-20 14:57:38,142 Internal Server Error: /author/
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: as_view() takes 1 positional argument but 2 were given
+2023-11-20 14:57:38,496 Internal Server Error: /author/
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: as_view() takes 1 positional argument but 2 were given
+2023-11-20 14:58:08,570 C:\Users\abdul\Django_Prac\portfolio\project\urls.py changed, reloading.
+2023-11-20 14:58:09,668 Watching for file changes with StatReloader
+2023-11-20 14:59:12,307 Not Found: /books/
+2023-11-20 14:59:35,641 Internal Server Error: /author/add/
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 184, in post
+    return super().post(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 153, in post
+    return self.form_valid(form)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 136, in form_valid
+    return super().form_valid(form)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 65, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+  File "C:\Users\abdul\Django_Prac\portfolio\project\views.py", line 110, in get_success_url
+    return reverse("Author-List")
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'Author-List' not found. 'Author-List' is not a valid view function or pattern name.
+2023-11-20 15:02:12,195 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:02:13,228 Watching for file changes with StatReloader
+2023-11-20 15:02:15,729 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:02:16,717 Watching for file changes with StatReloader
+2023-11-20 15:04:36,555 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:04:37,583 Watching for file changes with StatReloader
+2023-11-20 15:05:39,506 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:05:40,565 Watching for file changes with StatReloader
+2023-11-20 15:06:07,989 Watching for file changes with StatReloader
+2023-11-20 15:06:16,766 C:\Users\abdul\Django_Prac\portfolio\project\urls.py changed, reloading.
+2023-11-20 15:06:17,748 Watching for file changes with StatReloader
+2023-11-20 15:06:19,118 C:\Users\abdul\Django_Prac\portfolio\project\urls.py changed, reloading.
+2023-11-20 15:06:20,075 Watching for file changes with StatReloader
+2023-11-20 15:12:59,110 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:13:00,374 Watching for file changes with StatReloader
+2023-11-20 15:13:01,724 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:13:02,718 Watching for file changes with StatReloader
+2023-11-20 15:13:08,300 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:13:09,288 Watching for file changes with StatReloader
+2023-11-20 15:13:12,779 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:13:13,742 Watching for file changes with StatReloader
+2023-11-20 15:15:12,273 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:15:13,304 Watching for file changes with StatReloader
+2023-11-20 15:15:25,242 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:15:26,287 Watching for file changes with StatReloader
+2023-11-20 15:16:19,584 C:\Users\abdul\Django_Prac\portfolio\project\urls.py changed, reloading.
+2023-11-20 15:16:20,591 Watching for file changes with StatReloader
+2023-11-20 15:16:29,706 Not Found: /multi/
+2023-11-20 15:16:37,450 Internal Server Error: /multi
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 180, in get
+    return super().get(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 144, in get
+    return self.render_to_response(self.get_context_data())
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 74, in get_context_data
+    kwargs["form"] = self.get_form()
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 38, in get_form
+    form_class = self.get_form_class()
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 105, in get_form_class
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Using ModelFormMixin (base class of MultiCreateView) without the 'fields' attribute is prohibited.
+2023-11-20 15:20:50,069 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:20:51,137 Watching for file changes with StatReloader
+2023-11-20 15:22:20,438 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:22:21,420 Watching for file changes with StatReloader
+2023-11-20 15:22:23,891 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:22:24,875 Watching for file changes with StatReloader
+2023-11-20 15:22:52,648 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:22:53,630 Watching for file changes with StatReloader
+2023-11-20 15:22:59,314 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:23:00,280 Watching for file changes with StatReloader
+2023-11-20 15:23:02,725 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:23:03,720 Watching for file changes with StatReloader
+2023-11-20 15:23:05,053 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:23:06,052 Watching for file changes with StatReloader
+2023-11-20 15:23:11,581 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:23:12,599 Watching for file changes with StatReloader
+2023-11-20 15:23:14,003 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:23:14,968 Watching for file changes with StatReloader
+2023-11-20 15:23:17,413 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:23:18,375 Watching for file changes with StatReloader
+2023-11-20 15:23:23,986 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:23:24,984 Watching for file changes with StatReloader
+2023-11-20 15:23:35,932 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:23:36,943 Watching for file changes with StatReloader
+2023-11-20 15:26:16,784 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:26:17,791 Watching for file changes with StatReloader
+2023-11-20 15:26:23,428 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:26:24,512 Watching for file changes with StatReloader
+2023-11-20 15:28:00,109 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:28:01,108 Watching for file changes with StatReloader
+2023-11-20 15:28:07,790 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:28:08,766 Watching for file changes with StatReloader
+2023-11-20 15:28:15,467 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:28:16,534 Watching for file changes with StatReloader
+2023-11-20 15:28:29,555 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:28:30,540 Watching for file changes with StatReloader
+2023-11-20 15:28:31,918 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:28:32,931 Watching for file changes with StatReloader
+2023-11-20 15:28:35,408 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:28:36,381 Watching for file changes with StatReloader
+2023-11-20 15:28:37,795 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:28:38,805 Watching for file changes with StatReloader
+2023-11-20 15:28:40,211 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:28:41,244 Watching for file changes with StatReloader
+2023-11-20 15:28:44,774 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:28:45,755 Watching for file changes with StatReloader
+2023-11-20 15:28:49,243 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:28:50,260 Watching for file changes with StatReloader
+2023-11-20 15:28:52,742 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:28:53,719 Watching for file changes with StatReloader
+2023-11-20 15:28:56,154 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:28:57,244 Watching for file changes with StatReloader
+2023-11-20 15:29:03,925 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:29:04,956 Watching for file changes with StatReloader
+2023-11-20 15:29:07,398 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:29:08,411 Watching for file changes with StatReloader
+2023-11-20 15:29:17,252 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:29:18,255 Watching for file changes with StatReloader
+2023-11-20 15:29:26,015 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:29:27,046 Watching for file changes with StatReloader
+2023-11-20 15:29:31,632 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:29:32,623 Watching for file changes with StatReloader
+2023-11-20 15:29:41,467 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:29:42,452 Watching for file changes with StatReloader
+2023-11-20 15:29:43,854 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:29:44,833 Watching for file changes with StatReloader
+2023-11-20 15:29:52,591 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:29:53,564 Watching for file changes with StatReloader
+2023-11-20 15:29:54,909 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:29:55,884 Watching for file changes with StatReloader
+2023-11-20 15:30:00,398 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:30:01,407 Watching for file changes with StatReloader
+2023-11-20 15:30:07,008 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:30:07,992 Watching for file changes with StatReloader
+2023-11-20 15:30:23,157 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:30:24,180 Watching for file changes with StatReloader
+2023-11-20 15:30:27,696 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:30:28,652 Watching for file changes with StatReloader
+2023-11-20 15:30:29,980 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:30:30,992 Watching for file changes with StatReloader
+2023-11-20 15:30:39,789 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:30:40,851 Watching for file changes with StatReloader
+2023-11-20 15:31:04,567 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:31:05,602 Watching for file changes with StatReloader
+2023-11-20 15:31:20,801 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:31:21,800 Watching for file changes with StatReloader
+2023-11-20 15:31:25,296 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:31:26,317 Watching for file changes with StatReloader
+2023-11-20 15:31:35,094 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:31:36,179 Watching for file changes with StatReloader
+2023-11-20 15:32:00,819 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:32:01,819 Watching for file changes with StatReloader
+2023-11-20 15:32:03,201 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:32:04,178 Watching for file changes with StatReloader
+2023-11-20 15:32:05,524 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:32:06,492 Watching for file changes with StatReloader
+2023-11-20 15:32:14,167 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:32:15,151 Watching for file changes with StatReloader
+2023-11-20 15:32:17,660 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:32:18,636 Watching for file changes with StatReloader
+2023-11-20 15:32:33,891 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:32:34,894 Watching for file changes with StatReloader
+2023-11-20 15:32:37,371 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:32:38,322 Watching for file changes with StatReloader
+2023-11-20 15:33:00,281 Not Found: /multi/
+2023-11-20 15:33:04,377 Internal Server Error: /multi
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\abdul\Django_Prac\portfolio\project\views.py", line 120, in get
+    return super().get(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 180, in get
+    return super().get(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 144, in get
+    return self.render_to_response(self.get_context_data())
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 74, in get_context_data
+    kwargs["form"] = self.get_form()
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 38, in get_form
+    form_class = self.get_form_class()
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 102, in get_form_class
+    model = self.get_queryset().model
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\detail.py", line 72, in get_queryset
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: MultiCreateView is missing a QuerySet. Define MultiCreateView.model, MultiCreateView.queryset, or override MultiCreateView.get_queryset().
+2023-11-20 15:33:04,899 Internal Server Error: /multi
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\abdul\Django_Prac\portfolio\project\views.py", line 120, in get
+    return super().get(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 180, in get
+    return super().get(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 144, in get
+    return self.render_to_response(self.get_context_data())
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 74, in get_context_data
+    kwargs["form"] = self.get_form()
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 38, in get_form
+    form_class = self.get_form_class()
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 102, in get_form_class
+    model = self.get_queryset().model
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\detail.py", line 72, in get_queryset
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: MultiCreateView is missing a QuerySet. Define MultiCreateView.model, MultiCreateView.queryset, or override MultiCreateView.get_queryset().
+2023-11-20 15:33:21,098 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:33:22,114 Watching for file changes with StatReloader
+2023-11-20 15:33:37,325 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:33:38,302 Watching for file changes with StatReloader
+2023-11-20 15:33:42,682 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:33:43,728 Watching for file changes with StatReloader
+2023-11-20 15:33:46,197 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:33:47,240 Watching for file changes with StatReloader
+2023-11-20 15:33:56,078 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:33:57,074 Watching for file changes with StatReloader
+2023-11-20 15:34:02,686 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:34:03,663 Watching for file changes with StatReloader
+2023-11-20 15:34:06,072 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:34:07,066 Watching for file changes with StatReloader
+2023-11-20 15:34:08,441 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:34:09,413 Watching for file changes with StatReloader
+2023-11-20 15:34:11,890 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:34:12,938 Watching for file changes with StatReloader
+2023-11-20 15:34:16,044 Internal Server Error: /multi
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\abdul\Django_Prac\portfolio\project\views.py", line 122, in get
+    return super().get(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 180, in get
+    return super().get(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 144, in get
+    return self.render_to_response(self.get_context_data())
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 74, in get_context_data
+    kwargs["form"] = self.get_form()
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 38, in get_form
+    form_class = self.get_form_class()
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 102, in get_form_class
+    model = self.get_queryset().model
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\detail.py", line 72, in get_queryset
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: MultiCreateView is missing a QuerySet. Define MultiCreateView.model, MultiCreateView.queryset, or override MultiCreateView.get_queryset().
+2023-11-20 15:34:18,199 Internal Server Error: /multi
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\abdul\Django_Prac\portfolio\project\views.py", line 122, in get
+    return super().get(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 180, in get
+    return super().get(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 144, in get
+    return self.render_to_response(self.get_context_data())
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 74, in get_context_data
+    kwargs["form"] = self.get_form()
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 38, in get_form
+    form_class = self.get_form_class()
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 102, in get_form_class
+    model = self.get_queryset().model
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\detail.py", line 72, in get_queryset
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: MultiCreateView is missing a QuerySet. Define MultiCreateView.model, MultiCreateView.queryset, or override MultiCreateView.get_queryset().
+2023-11-20 15:35:18,987 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:35:20,054 Watching for file changes with StatReloader
+2023-11-20 15:35:25,718 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:35:26,772 Watching for file changes with StatReloader
+2023-11-20 15:35:31,420 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:35:32,493 Watching for file changes with StatReloader
+2023-11-20 15:35:38,798 Internal Server Error: /multi
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\abdul\Django_Prac\portfolio\project\views.py", line 122, in get
+    return super().get(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 180, in get
+    return super().get(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 144, in get
+    return self.render_to_response(self.get_context_data())
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 74, in get_context_data
+    kwargs["form"] = self.get_form()
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 38, in get_form
+    form_class = self.get_form_class()
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 105, in get_form_class
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Using ModelFormMixin (base class of MultiCreateView) without the 'fields' attribute is prohibited.
+2023-11-20 15:36:04,728 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:36:05,687 Watching for file changes with StatReloader
+2023-11-20 15:36:16,599 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:36:17,686 Watching for file changes with StatReloader
+2023-11-20 15:36:18,222 Internal Server Error: /multi
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\abdul\Django_Prac\portfolio\project\views.py", line 122, in get
+    return super().get(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 180, in get
+    return super().get(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 144, in get
+    return self.render_to_response(self.get_context_data())
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 74, in get_context_data
+    kwargs["form"] = self.get_form()
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 38, in get_form
+    form_class = self.get_form_class()
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 105, in get_form_class
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Using ModelFormMixin (base class of MultiCreateView) without the 'fields' attribute is prohibited.
+2023-11-20 15:36:25,438 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:36:26,435 Watching for file changes with StatReloader
+2023-11-20 15:36:29,987 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:36:30,988 Watching for file changes with StatReloader
+2023-11-20 15:38:32,982 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:38:34,009 Watching for file changes with StatReloader
+2023-11-20 15:38:35,418 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:38:36,496 Watching for file changes with StatReloader
+2023-11-20 15:38:39,370 Internal Server Error: /multi
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\abdul\Django_Prac\portfolio\project\views.py", line 121, in get
+    return super().get(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 180, in get
+    return super().get(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 144, in get
+    return self.render_to_response(self.get_context_data())
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 74, in get_context_data
+    kwargs["form"] = self.get_form()
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 38, in get_form
+    form_class = self.get_form_class()
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 105, in get_form_class
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Using ModelFormMixin (base class of MultiCreateView) without the 'fields' attribute is prohibited.
+2023-11-20 15:38:42,454 Internal Server Error: /multi
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\abdul\Django_Prac\portfolio\project\views.py", line 121, in get
+    return super().get(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 180, in get
+    return super().get(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 144, in get
+    return self.render_to_response(self.get_context_data())
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 74, in get_context_data
+    kwargs["form"] = self.get_form()
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 38, in get_form
+    form_class = self.get_form_class()
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\edit.py", line 105, in get_form_class
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Using ModelFormMixin (base class of MultiCreateView) without the 'fields' attribute is prohibited.
+2023-11-20 15:45:04,066 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 15:45:06,392 Watching for file changes with StatReloader
+2023-11-20 15:54:38,631 Watching for file changes with StatReloader
+2023-11-20 18:18:49,053 Watching for file changes with StatReloader
+2023-11-20 18:19:01,432 Not Found: /favicon.ico
+2023-11-20 18:47:58,565 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:47:59,724 Watching for file changes with StatReloader
+2023-11-20 18:48:09,158 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:48:10,341 Watching for file changes with StatReloader
+2023-11-20 18:48:12,968 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:48:14,142 Watching for file changes with StatReloader
+2023-11-20 18:48:16,646 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:48:17,768 Watching for file changes with StatReloader
+2023-11-20 18:48:22,655 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:48:23,805 Watching for file changes with StatReloader
+2023-11-20 18:48:26,462 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:48:27,594 Watching for file changes with StatReloader
+2023-11-20 18:48:32,323 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:48:33,654 Watching for file changes with StatReloader
+2023-11-20 18:48:37,563 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:48:38,940 Watching for file changes with StatReloader
+2023-11-20 18:48:42,914 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:48:44,310 Watching for file changes with StatReloader
+2023-11-20 18:48:48,275 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:48:49,608 Watching for file changes with StatReloader
+2023-11-20 18:48:53,499 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:48:54,787 Watching for file changes with StatReloader
+2023-11-20 18:48:59,654 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:49:00,882 Watching for file changes with StatReloader
+2023-11-20 18:49:09,183 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:49:10,288 Watching for file changes with StatReloader
+2023-11-20 18:49:14,026 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:49:15,266 Watching for file changes with StatReloader
+2023-11-20 18:49:32,642 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:49:33,829 Watching for file changes with StatReloader
+2023-11-20 18:49:37,639 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:49:38,723 Watching for file changes with StatReloader
+2023-11-20 18:49:45,859 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:49:46,998 Watching for file changes with StatReloader
+2023-11-20 18:50:18,379 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:50:19,747 Watching for file changes with StatReloader
+2023-11-20 18:50:23,579 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:50:24,667 Watching for file changes with StatReloader
+2023-11-20 18:50:32,843 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:50:34,106 Watching for file changes with StatReloader
+2023-11-20 18:50:40,286 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:50:41,730 Watching for file changes with StatReloader
+2023-11-20 18:50:46,891 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:50:48,259 Watching for file changes with StatReloader
+2023-11-20 18:50:57,877 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:50:59,271 Watching for file changes with StatReloader
+2023-11-20 18:51:05,556 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:51:06,932 Watching for file changes with StatReloader
+2023-11-20 18:51:13,266 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:51:14,464 Watching for file changes with StatReloader
+2023-11-20 18:51:16,235 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:51:17,480 Watching for file changes with StatReloader
+2023-11-20 18:51:19,217 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:51:20,658 Watching for file changes with StatReloader
+2023-11-20 18:51:24,786 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:51:26,196 Watching for file changes with StatReloader
+2023-11-20 18:51:27,888 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:51:29,073 Watching for file changes with StatReloader
+2023-11-20 18:51:30,712 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:51:31,867 Watching for file changes with StatReloader
+2023-11-20 18:51:35,714 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:51:36,866 Watching for file changes with StatReloader
+2023-11-20 18:51:38,570 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:51:39,908 Watching for file changes with StatReloader
+2023-11-20 18:51:46,002 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:51:47,300 Watching for file changes with StatReloader
+2023-11-20 18:51:51,251 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:51:52,697 Watching for file changes with StatReloader
+2023-11-20 18:51:55,623 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:51:56,972 Watching for file changes with StatReloader
+2023-11-20 18:52:02,071 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:52:03,507 Watching for file changes with StatReloader
+2023-11-20 18:52:12,238 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:52:13,663 Watching for file changes with StatReloader
+2023-11-20 18:52:15,444 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:52:16,866 Watching for file changes with StatReloader
+2023-11-20 18:52:32,490 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:52:33,925 Watching for file changes with StatReloader
+2023-11-20 18:52:37,901 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:52:39,246 Watching for file changes with StatReloader
+2023-11-20 18:52:48,902 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:52:50,123 Watching for file changes with StatReloader
+2023-11-20 18:52:51,730 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:52:52,857 Watching for file changes with StatReloader
+2023-11-20 18:52:54,500 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:52:55,878 Watching for file changes with StatReloader
+2023-11-20 18:52:59,802 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:53:01,192 Watching for file changes with StatReloader
+2023-11-20 18:53:05,242 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:53:06,381 Watching for file changes with StatReloader
+2023-11-20 18:53:10,309 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:53:11,411 Watching for file changes with StatReloader
+2023-11-20 18:53:17,550 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:53:18,884 Watching for file changes with StatReloader
+2023-11-20 18:53:20,598 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:53:21,942 Watching for file changes with StatReloader
+2023-11-20 18:53:24,771 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:53:26,222 Watching for file changes with StatReloader
+2023-11-20 18:53:48,621 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-20 18:53:49,964 Watching for file changes with StatReloader
+2023-11-20 18:53:52,725 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-20 18:53:54,033 Watching for file changes with StatReloader
+2023-11-20 18:54:00,036 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-20 18:54:01,371 Watching for file changes with StatReloader
+2023-11-20 18:54:06,198 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-20 18:54:07,520 Watching for file changes with StatReloader
+2023-11-20 18:54:08,966 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-20 18:54:10,191 Watching for file changes with StatReloader
+2023-11-20 18:54:21,748 Not Found: /api/doctors/
+2023-11-20 18:56:05,204 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:56:06,626 Watching for file changes with StatReloader
+2023-11-20 18:56:08,405 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 18:56:09,750 Watching for file changes with StatReloader
+2023-11-20 18:56:16,481 Watching for file changes with StatReloader
+2023-11-20 19:00:10,482 Unsupported Media Type: /api/doctor/
+2023-11-20 19:00:19,028 Unsupported Media Type: /api/doctor/
+2023-11-20 19:00:38,257 Unsupported Media Type: /api/doctor/
+2023-11-20 19:01:06,749 Unsupported Media Type: /api/doctor/
+2023-11-20 19:01:52,903 Unsupported Media Type: /api/doctor/
+2023-11-20 19:03:24,100 Bad Request: /api/doctor/
+2023-11-20 19:08:43,277 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:08:45,364 Watching for file changes with StatReloader
+2023-11-20 19:08:51,711 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:08:53,065 Watching for file changes with StatReloader
+2023-11-20 19:08:54,854 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:08:56,150 Watching for file changes with StatReloader
+2023-11-20 19:09:00,094 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:09:01,396 Watching for file changes with StatReloader
+2023-11-20 19:09:10,922 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:09:12,231 Watching for file changes with StatReloader
+2023-11-20 19:09:14,876 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:09:16,145 Watching for file changes with StatReloader
+2023-11-20 19:09:21,058 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:09:22,435 Watching for file changes with StatReloader
+2023-11-20 19:10:11,224 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:10:12,397 Watching for file changes with StatReloader
+2023-11-20 19:10:16,346 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:10:17,495 Watching for file changes with StatReloader
+2023-11-20 19:10:20,167 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:10:21,513 Watching for file changes with StatReloader
+2023-11-20 19:10:24,210 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:10:25,453 Watching for file changes with StatReloader
+2023-11-20 19:10:39,388 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:10:40,781 Watching for file changes with StatReloader
+2023-11-20 19:10:52,847 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:10:54,170 Watching for file changes with StatReloader
+2023-11-20 19:11:18,640 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:11:20,015 Watching for file changes with StatReloader
+2023-11-20 19:11:23,984 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:11:25,325 Watching for file changes with StatReloader
+2023-11-20 19:11:41,947 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:11:43,312 Watching for file changes with StatReloader
+2023-11-20 19:15:38,594 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:15:39,777 Watching for file changes with StatReloader
+2023-11-20 19:15:42,575 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:15:43,926 Watching for file changes with StatReloader
+2023-11-20 19:18:36,636 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:18:38,079 Watching for file changes with StatReloader
+2023-11-20 19:18:40,867 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:18:41,982 Watching for file changes with StatReloader
+2023-11-20 19:18:43,576 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:18:44,741 Watching for file changes with StatReloader
+2023-11-20 19:18:47,480 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:18:48,906 Watching for file changes with StatReloader
+2023-11-20 19:18:50,670 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:18:51,748 Watching for file changes with StatReloader
+2023-11-20 19:18:53,239 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:18:54,615 Watching for file changes with StatReloader
+2023-11-20 19:18:57,557 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:18:58,910 Watching for file changes with StatReloader
+2023-11-20 19:19:01,688 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:19:03,022 Watching for file changes with StatReloader
+2023-11-20 19:21:04,939 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:21:06,135 Watching for file changes with StatReloader
+2023-11-20 19:21:07,832 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:21:09,069 Watching for file changes with StatReloader
+2023-11-20 19:21:13,936 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:21:15,342 Watching for file changes with StatReloader
+2023-11-20 19:21:19,328 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:21:20,773 Watching for file changes with StatReloader
+2023-11-20 19:21:23,716 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:21:25,104 Watching for file changes with StatReloader
+2023-11-20 19:21:29,151 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:21:30,553 Watching for file changes with StatReloader
+2023-11-20 19:21:35,721 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:21:37,037 Watching for file changes with StatReloader
+2023-11-20 19:21:41,038 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:21:42,395 Watching for file changes with StatReloader
+2023-11-20 19:21:45,230 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:21:46,547 Watching for file changes with StatReloader
+2023-11-20 19:21:54,999 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:21:56,366 Watching for file changes with StatReloader
+2023-11-20 19:21:58,157 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:21:59,536 Watching for file changes with StatReloader
+2023-11-20 19:22:04,782 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:22:06,158 Watching for file changes with StatReloader
+2023-11-20 19:22:08,905 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:22:10,353 Watching for file changes with StatReloader
+2023-11-20 19:22:14,422 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:22:15,745 Watching for file changes with StatReloader
+2023-11-20 19:22:17,477 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:22:18,704 Watching for file changes with StatReloader
+2023-11-20 19:22:21,600 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:22:22,928 Watching for file changes with StatReloader
+2023-11-20 19:22:25,670 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:22:27,067 Watching for file changes with StatReloader
+2023-11-20 19:22:41,009 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:22:42,406 Watching for file changes with StatReloader
+2023-11-20 19:22:44,152 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:22:45,281 Watching for file changes with StatReloader
+2023-11-20 19:22:46,871 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:22:48,216 Watching for file changes with StatReloader
+2023-11-20 19:22:53,307 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:22:54,640 Watching for file changes with StatReloader
+2023-11-20 19:23:25,058 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:23:26,491 Watching for file changes with StatReloader
+2023-11-20 19:23:33,960 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:23:35,414 Watching for file changes with StatReloader
+2023-11-20 19:23:37,203 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:23:38,412 Watching for file changes with StatReloader
+2023-11-20 19:28:24,047 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:28:25,382 Watching for file changes with StatReloader
+2023-11-20 19:28:28,186 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:28:29,494 Watching for file changes with StatReloader
+2023-11-20 19:28:31,148 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:28:32,403 Watching for file changes with StatReloader
+2023-11-20 19:28:42,045 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:28:43,338 Watching for file changes with StatReloader
+2023-11-20 19:28:51,727 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:28:53,102 Watching for file changes with StatReloader
+2023-11-20 19:28:59,481 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:29:00,997 Watching for file changes with StatReloader
+2023-11-20 19:29:08,441 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:29:09,832 Watching for file changes with StatReloader
+2023-11-20 19:29:13,769 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:29:15,137 Watching for file changes with StatReloader
+2023-11-20 19:29:16,859 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:29:18,233 Watching for file changes with StatReloader
+2023-11-20 19:29:27,873 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:29:29,044 Watching for file changes with StatReloader
+2023-11-20 19:29:31,749 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:29:32,830 Watching for file changes with StatReloader
+2023-11-20 19:29:35,487 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:29:36,602 Watching for file changes with StatReloader
+2023-11-20 19:29:42,667 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:29:43,824 Watching for file changes with StatReloader
+2023-11-20 19:30:20,580 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:30:21,759 Watching for file changes with StatReloader
+2023-11-20 19:34:36,446 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:34:37,847 Watching for file changes with StatReloader
+2023-11-20 19:34:40,795 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:34:42,043 Watching for file changes with StatReloader
+2023-11-20 19:34:49,155 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:34:50,503 Watching for file changes with StatReloader
+2023-11-20 19:34:56,673 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:34:58,065 Watching for file changes with StatReloader
+2023-11-20 19:35:06,693 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:35:08,106 Watching for file changes with StatReloader
+2023-11-20 19:35:09,914 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:35:11,235 Watching for file changes with StatReloader
+2023-11-20 19:35:16,413 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:35:17,563 Watching for file changes with StatReloader
+2023-11-20 19:35:24,608 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:35:25,749 Watching for file changes with StatReloader
+2023-11-20 19:35:36,330 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:35:37,725 Watching for file changes with StatReloader
+2023-11-20 19:36:07,966 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:36:09,430 Watching for file changes with StatReloader
+2023-11-20 19:36:11,009 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 19:36:12,406 Watching for file changes with StatReloader
+2023-11-20 19:39:58,905 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 19:40:00,344 Watching for file changes with StatReloader
+2023-11-20 19:40:04,413 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 19:40:05,629 Watching for file changes with StatReloader
+2023-11-20 19:40:10,670 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 19:40:12,018 Watching for file changes with StatReloader
+2023-11-20 19:40:13,793 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 19:40:15,022 Watching for file changes with StatReloader
+2023-11-20 19:40:18,666 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 19:40:19,933 Watching for file changes with StatReloader
+2023-11-20 19:40:22,535 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 19:40:23,941 Watching for file changes with StatReloader
+2023-11-20 19:40:29,864 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 19:40:31,123 Watching for file changes with StatReloader
+2023-11-20 19:40:32,584 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 19:40:33,827 Watching for file changes with StatReloader
+2023-11-20 19:42:25,935 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 19:42:27,157 Watching for file changes with StatReloader
+2023-11-20 19:42:33,035 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 19:42:34,294 Watching for file changes with StatReloader
+2023-11-20 19:42:43,602 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 19:42:44,914 Watching for file changes with StatReloader
+2023-11-20 19:42:49,702 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 19:42:50,866 Watching for file changes with StatReloader
+2023-11-20 19:42:54,524 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 19:42:55,625 Watching for file changes with StatReloader
+2023-11-20 19:42:57,237 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 19:42:58,613 Watching for file changes with StatReloader
+2023-11-20 19:43:09,597 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 19:43:10,986 Watching for file changes with StatReloader
+2023-11-20 19:43:13,936 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 19:43:15,376 Watching for file changes with StatReloader
+2023-11-20 19:43:59,178 Internal Server Error: /api/doctor/
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\Users\abdul\Django_Prac\portfolio\project\views.py", line 193, in doctors
+    if serializer.is_valid():
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\serializers.py", line 227, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\serializers.py", line 429, in run_validation
+    value = self.validate(value)
+  File "C:\Users\abdul\Django_Prac\portfolio\project\serializers.py", line 12, in validate
+    if  '+' in data['data']:
+KeyError: 'data'
+2023-11-20 19:44:35,911 Internal Server Error: /api/doctor/
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\Users\abdul\Django_Prac\portfolio\project\views.py", line 193, in doctors
+    if serializer.is_valid():
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\serializers.py", line 227, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\serializers.py", line 429, in run_validation
+    value = self.validate(value)
+  File "C:\Users\abdul\Django_Prac\portfolio\project\serializers.py", line 12, in validate
+    if  '+' in data['data']:
+KeyError: 'data'
+2023-11-20 19:44:48,385 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 19:44:49,783 Watching for file changes with StatReloader
+2023-11-20 19:44:56,082 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 19:44:57,319 Watching for file changes with StatReloader
+2023-11-20 19:45:26,016 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 19:45:27,379 Watching for file changes with StatReloader
+2023-11-20 19:45:29,110 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 19:45:30,320 Watching for file changes with StatReloader
+2023-11-20 20:43:44,124 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 20:43:46,023 Watching for file changes with StatReloader
+2023-11-20 20:43:47,777 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 20:43:49,061 Watching for file changes with StatReloader
+2023-11-20 20:43:51,881 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 20:43:53,171 Watching for file changes with StatReloader
+2023-11-20 20:43:59,303 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 20:44:00,646 Watching for file changes with StatReloader
+2023-11-20 20:44:04,573 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 20:44:05,826 Watching for file changes with StatReloader
+2023-11-20 20:44:43,631 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 20:44:44,882 Watching for file changes with StatReloader
+2023-11-20 20:44:55,525 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 20:44:56,734 Watching for file changes with StatReloader
+2023-11-20 20:45:03,999 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 20:45:05,108 Watching for file changes with StatReloader
+2023-11-20 20:45:17,763 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 20:45:18,981 Watching for file changes with StatReloader
+2023-11-20 20:45:48,265 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 20:45:49,370 Watching for file changes with StatReloader
+2023-11-20 20:46:01,943 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 20:46:03,200 Watching for file changes with StatReloader
+2023-11-20 20:46:11,520 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 20:46:12,763 Watching for file changes with StatReloader
+2023-11-20 20:46:22,286 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 20:46:23,467 Watching for file changes with StatReloader
+2023-11-20 20:46:30,733 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 20:46:31,875 Watching for file changes with StatReloader
+2023-11-20 20:46:33,506 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 20:46:34,708 Watching for file changes with StatReloader
+2023-11-20 20:46:42,015 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 20:46:43,212 Watching for file changes with StatReloader
+2023-11-20 20:46:50,491 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 20:46:51,908 Watching for file changes with StatReloader
+2023-11-20 20:46:53,347 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 20:46:54,688 Watching for file changes with StatReloader
+2023-11-20 20:47:09,025 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 20:47:10,355 Watching for file changes with StatReloader
+2023-11-20 20:47:18,817 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 20:47:19,871 Watching for file changes with StatReloader
+2023-11-20 20:47:33,601 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 20:47:34,678 Watching for file changes with StatReloader
+2023-11-20 20:47:39,629 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 20:47:40,964 Watching for file changes with StatReloader
+2023-11-20 20:47:49,546 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 20:47:50,983 Watching for file changes with StatReloader
+2023-11-20 20:47:53,859 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 20:47:55,218 Watching for file changes with StatReloader
+2023-11-20 20:48:11,724 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 20:48:13,054 Watching for file changes with StatReloader
+2023-11-20 20:48:15,873 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 20:48:17,289 Watching for file changes with StatReloader
+2023-11-20 20:48:19,001 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 20:48:20,393 Watching for file changes with StatReloader
+2023-11-20 20:48:23,269 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 20:48:24,626 Watching for file changes with StatReloader
+2023-11-20 20:48:32,054 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 20:48:33,430 Watching for file changes with StatReloader
+2023-11-20 20:48:40,760 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 20:48:42,172 Watching for file changes with StatReloader
+2023-11-20 20:48:46,143 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 20:48:47,428 Watching for file changes with StatReloader
+2023-11-20 20:48:49,233 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 20:48:50,494 Watching for file changes with StatReloader
+2023-11-20 20:48:54,462 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 20:48:55,692 Watching for file changes with StatReloader
+2023-11-20 20:49:34,813 Not Found: /api/Nurse/
+2023-11-20 20:49:53,572 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-20 20:49:54,674 Watching for file changes with StatReloader
+2023-11-20 20:49:58,546 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-20 20:49:59,653 Watching for file changes with StatReloader
+2023-11-20 20:50:03,549 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-20 20:50:04,705 Watching for file changes with StatReloader
+2023-11-20 20:50:07,477 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-20 20:50:08,820 Watching for file changes with StatReloader
+2023-11-20 20:50:12,576 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-20 20:50:13,882 Watching for file changes with StatReloader
+2023-11-20 20:50:15,309 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-20 20:50:16,713 Watching for file changes with StatReloader
+2023-11-20 20:50:20,209 Not Found: /api/Nurse/
+2023-11-20 20:50:29,471 Internal Server Error: /api/nurse
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/api/nurse/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2023-11-20 20:57:09,793 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 20:57:11,196 Watching for file changes with StatReloader
+2023-11-20 20:57:12,980 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 20:57:14,301 Watching for file changes with StatReloader
+2023-11-20 20:57:16,031 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 20:57:17,392 Watching for file changes with StatReloader
+2023-11-20 20:57:18,880 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 20:57:20,300 Watching for file changes with StatReloader
+2023-11-20 20:57:31,259 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 20:57:32,630 Watching for file changes with StatReloader
+2023-11-20 21:02:39,215 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 21:02:40,363 Watching for file changes with StatReloader
+2023-11-20 21:02:42,896 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 21:02:44,042 Watching for file changes with StatReloader
+2023-11-20 21:02:45,492 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 21:02:46,834 Watching for file changes with StatReloader
+2023-11-20 21:02:53,129 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 21:02:54,321 Watching for file changes with StatReloader
+2023-11-20 21:02:59,404 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 21:03:00,779 Watching for file changes with StatReloader
+2023-11-20 21:03:09,387 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 21:03:10,689 Watching for file changes with StatReloader
+2023-11-20 21:03:14,692 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 21:03:15,965 Watching for file changes with StatReloader
+2023-11-20 21:03:18,725 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 21:03:19,995 Watching for file changes with StatReloader
+2023-11-20 21:03:21,685 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 21:03:23,034 Watching for file changes with StatReloader
+2023-11-20 21:03:25,872 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 21:03:27,027 Watching for file changes with StatReloader
+2023-11-20 21:03:45,343 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 21:03:46,719 Watching for file changes with StatReloader
+2023-11-20 21:03:48,497 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 21:03:49,845 Watching for file changes with StatReloader
+2023-11-20 21:03:51,622 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 21:03:52,764 Watching for file changes with StatReloader
+2023-11-20 21:03:54,380 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 21:03:55,683 Watching for file changes with StatReloader
+2023-11-20 21:04:15,752 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 21:04:16,880 Watching for file changes with StatReloader
+2023-11-20 21:04:31,888 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 21:04:33,058 Watching for file changes with StatReloader
+2023-11-20 21:04:40,242 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 21:04:41,555 Watching for file changes with StatReloader
+2023-11-20 21:04:43,273 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 21:04:44,430 Watching for file changes with StatReloader
+2023-11-20 21:04:56,036 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 21:04:57,155 Watching for file changes with StatReloader
+2023-11-20 21:04:59,651 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 21:05:00,963 Watching for file changes with StatReloader
+2023-11-20 21:05:02,446 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 21:05:03,562 Watching for file changes with StatReloader
+2023-11-20 21:05:04,920 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 21:05:06,039 Watching for file changes with StatReloader
+2023-11-20 21:05:07,656 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 21:05:08,778 Watching for file changes with StatReloader
+2023-11-20 21:05:11,454 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 21:05:12,592 Watching for file changes with StatReloader
+2023-11-20 21:05:18,689 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 21:05:19,751 Watching for file changes with StatReloader
+2023-11-20 21:05:23,304 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 21:05:24,465 Watching for file changes with StatReloader
+2023-11-20 21:05:26,143 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 21:05:27,390 Watching for file changes with StatReloader
+2023-11-20 21:05:41,444 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 21:05:42,735 Watching for file changes with StatReloader
+2023-11-20 21:06:07,771 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 21:06:09,021 Watching for file changes with StatReloader
+2023-11-20 21:06:33,472 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 21:06:34,615 Watching for file changes with StatReloader
+2023-11-20 21:06:56,189 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 21:06:57,345 Watching for file changes with StatReloader
+2023-11-20 21:07:00,117 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 21:07:01,277 Watching for file changes with StatReloader
+2023-11-20 21:07:07,054 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 21:07:08,247 Watching for file changes with StatReloader
+2023-11-20 21:07:09,934 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 21:07:11,241 Watching for file changes with StatReloader
+2023-11-20 21:07:12,889 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 21:07:14,206 Watching for file changes with StatReloader
+2023-11-20 21:07:22,774 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 21:07:24,077 Watching for file changes with StatReloader
+2023-11-20 21:07:29,111 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 21:07:30,357 Watching for file changes with StatReloader
+2023-11-20 21:07:31,825 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 21:07:33,122 Watching for file changes with StatReloader
+2023-11-20 21:07:37,123 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 21:07:38,400 Watching for file changes with StatReloader
+2023-11-20 21:07:51,404 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 21:07:52,689 Watching for file changes with StatReloader
+2023-11-20 21:08:13,626 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 21:08:14,776 Watching for file changes with StatReloader
+2023-11-20 21:08:17,560 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 21:08:18,826 Watching for file changes with StatReloader
+2023-11-20 21:08:21,419 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 21:08:22,784 Watching for file changes with StatReloader
+2023-11-20 21:08:42,832 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 21:08:44,019 Watching for file changes with StatReloader
+2023-11-20 21:08:45,633 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 21:08:46,998 Watching for file changes with StatReloader
+2023-11-20 21:08:53,264 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 21:08:54,584 Watching for file changes with StatReloader
+2023-11-20 21:08:56,254 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 21:08:57,390 Watching for file changes with StatReloader
+2023-11-20 21:09:06,762 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 21:09:07,968 Watching for file changes with StatReloader
+2023-11-20 21:09:12,794 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 21:09:13,970 Watching for file changes with StatReloader
+2023-11-20 21:09:23,366 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 21:09:24,534 Watching for file changes with StatReloader
+2023-11-20 21:09:26,160 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 21:09:27,293 Watching for file changes with StatReloader
+2023-11-20 21:09:31,046 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 21:09:32,374 Watching for file changes with StatReloader
+2023-11-20 21:09:36,446 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 21:09:37,700 Watching for file changes with StatReloader
+2023-11-20 21:09:42,698 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 21:09:43,920 Watching for file changes with StatReloader
+2023-11-20 21:09:52,229 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 21:09:53,400 Watching for file changes with StatReloader
+2023-11-20 21:10:03,976 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 21:10:05,248 Watching for file changes with StatReloader
+2023-11-20 21:10:18,263 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 21:10:19,646 Watching for file changes with StatReloader
+2023-11-20 21:10:21,426 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 21:10:22,707 Watching for file changes with StatReloader
+2023-11-20 21:10:24,373 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 21:10:25,558 Watching for file changes with StatReloader
+2023-11-20 21:10:29,429 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 21:10:30,543 Watching for file changes with StatReloader
+2023-11-20 21:10:42,159 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 21:10:43,315 Watching for file changes with StatReloader
+2023-11-20 21:10:45,019 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 21:10:46,119 Watching for file changes with StatReloader
+2023-11-20 21:10:47,745 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 21:10:49,013 Watching for file changes with StatReloader
+2023-11-20 21:10:52,929 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 21:10:54,231 Watching for file changes with StatReloader
+2023-11-20 21:10:55,882 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 21:10:57,141 Watching for file changes with StatReloader
+2023-11-20 21:11:01,077 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 21:11:02,335 Watching for file changes with StatReloader
+2023-11-20 21:11:06,286 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 21:11:07,562 Watching for file changes with StatReloader
+2023-11-20 21:11:24,943 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-20 21:11:26,217 Watching for file changes with StatReloader
+2023-11-20 21:11:27,846 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-20 21:11:29,085 Watching for file changes with StatReloader
+2023-11-20 21:11:30,721 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-20 21:11:31,888 Watching for file changes with StatReloader
+2023-11-20 21:11:33,460 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-20 21:11:34,515 Watching for file changes with StatReloader
+2023-11-20 21:11:38,131 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-20 21:11:39,290 Watching for file changes with StatReloader
+2023-11-20 21:11:43,186 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-20 21:11:44,289 Watching for file changes with StatReloader
+2023-11-20 21:11:49,219 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-20 21:11:50,322 Watching for file changes with StatReloader
+2023-11-20 21:11:52,795 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-20 21:11:53,981 Watching for file changes with StatReloader
+2023-11-20 21:12:06,463 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-20 21:12:07,665 Watching for file changes with StatReloader
+2023-11-20 21:20:47,653 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 21:20:48,805 Watching for file changes with StatReloader
+2023-11-20 21:20:52,456 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 21:20:53,587 Watching for file changes with StatReloader
+2023-11-20 21:20:56,279 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 21:20:57,421 Watching for file changes with StatReloader
+2023-11-20 21:20:59,990 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-20 21:21:01,213 Watching for file changes with StatReloader

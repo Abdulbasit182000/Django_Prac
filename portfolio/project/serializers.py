@@ -72,8 +72,13 @@ class PatientSerializer(serializers.ModelSerializer):
         # depth = 1
 
     def validate(self, data):
+<<<<<<< HEAD
         x = data["age"]
         if x < 18:
+=======
+        x= data['age']
+        if x<18:
+>>>>>>> 5c4e8d6 (Rest FRamework started)
             raise serializers.ValidationError("Should be atleast 18")
 
         return data
