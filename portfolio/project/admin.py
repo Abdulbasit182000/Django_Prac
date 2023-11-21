@@ -1,5 +1,5 @@
 from django.contrib import admin
-from project.models import Patient, Doctor, Nurse, MedicalRecord, Hospital
+from project.models import *
 from django.utils.translation import gettext_lazy as _
 from django.contrib.admin import SimpleListFilter
 
@@ -86,3 +86,6 @@ class DoctorAdmin(admin.ModelAdmin):
 admin.site.register(Nurse)
 admin.site.register(MedicalRecord)
 admin.site.register(Hospital)
+admin.site.register(Publisher)
+admin.site.register(Book)
+admin.site.register(Author)

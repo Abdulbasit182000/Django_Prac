@@ -1,5 +1,5 @@
 from django.shortcuts import render, HttpResponse
-from home.models import Contact
+from project.models import Doctor
 
 
 def home(request):
@@ -22,9 +22,9 @@ def contact(request):
     # return HttpResponse('This is my contact page')
     if request.method == "POST":
         name = request.POST["name"]
-        email = request.POST["email"]
+        specialization = request.POST["specialization"]
         phone = request.POST["phone"]
-        print(name, email, phone)
-        ins = Contact(name=name, email=email, phone=phone)
+        print(name,specialization, phone)
+        ins = Doctor(name=name, specialization=specialization,contact_number=phone)
         ins.save()
     return render(request, "contact.html")

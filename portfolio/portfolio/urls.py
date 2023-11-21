@@ -24,6 +24,8 @@ admin.site.index_title='Random Text'
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('home.urls')),
+    path('', include('project.urls')),
     path("__debug__/", include("debug_toolbar.urls")),
+    path('api-auth/', include('rest_framework.urls')),
+    path('api/', include('api.urls')),
 ]

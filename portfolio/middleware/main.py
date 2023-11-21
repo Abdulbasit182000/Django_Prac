@@ -17,7 +17,7 @@ class ExampleMiddleware:
         return response
     
     def is_valid(self, data):
-        fields = ['name', 'email', 'phone']
+        fields = ['name', 'specialization', 'phone']
         for field in fields:
             if field not in data or not data[field]:
                 return False
