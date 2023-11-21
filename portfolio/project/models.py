@@ -22,8 +22,8 @@ class Nurse(models.Model):
 class Patient(models.Model):
     name = models.CharField(max_length=100)
     age = models.IntegerField()
-    doctor = models.ManyToManyField(Doctor, related_name="patients")
-    nurse = models.ForeignKey(Nurse, on_delete=models.CASCADE, related_name="patients")
+    doctor = models.ManyToManyField(Doctor, related_name="Patients")
+    nurse = models.ForeignKey(Nurse, on_delete=models.CASCADE, related_name="Patients")
     date_admitted = models.DateField(null=True, blank=True)
 
     def __str__(self):
