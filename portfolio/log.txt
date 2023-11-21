@@ -3918,3 +3918,1914 @@ RuntimeError: You called this URL via POST, but the URL doesn't end in a slash a
 2023-11-20 21:20:57,421 Watching for file changes with StatReloader
 2023-11-20 21:20:59,990 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
 2023-11-20 21:21:01,213 Watching for file changes with StatReloader
+2023-11-21 11:08:34,008 Watching for file changes with StatReloader
+2023-11-21 11:19:41,665 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:19:42,758 Watching for file changes with StatReloader
+2023-11-21 11:19:44,260 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:19:45,334 Watching for file changes with StatReloader
+2023-11-21 11:20:48,343 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:20:49,468 Watching for file changes with StatReloader
+2023-11-21 11:20:53,141 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:20:54,243 Watching for file changes with StatReloader
+2023-11-21 11:20:58,994 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:21:00,060 Watching for file changes with StatReloader
+2023-11-21 11:26:40,490 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:26:41,638 Watching for file changes with StatReloader
+2023-11-21 11:26:45,415 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:26:46,492 Watching for file changes with StatReloader
+2023-11-21 11:26:49,150 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:26:50,216 Watching for file changes with StatReloader
+2023-11-21 11:26:51,786 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:26:52,891 Watching for file changes with StatReloader
+2023-11-21 11:26:55,437 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:26:56,485 Watching for file changes with StatReloader
+2023-11-21 11:27:00,160 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:27:01,211 Watching for file changes with StatReloader
+2023-11-21 11:27:05,924 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:27:07,002 Watching for file changes with StatReloader
+2023-11-21 11:27:08,511 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:27:09,517 Watching for file changes with StatReloader
+2023-11-21 11:27:14,273 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:27:15,362 Watching for file changes with StatReloader
+2023-11-21 11:27:19,049 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:27:20,130 Watching for file changes with StatReloader
+2023-11-21 11:27:21,673 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:27:22,762 Watching for file changes with StatReloader
+2023-11-21 11:27:29,765 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:27:30,828 Watching for file changes with StatReloader
+2023-11-21 11:27:57,708 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:27:58,738 Watching for file changes with StatReloader
+2023-11-21 11:28:03,412 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:28:04,498 Watching for file changes with StatReloader
+2023-11-21 11:28:06,999 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:28:08,060 Watching for file changes with StatReloader
+2023-11-21 11:28:10,729 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:28:11,802 Watching for file changes with StatReloader
+2023-11-21 11:28:14,460 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:28:15,541 Watching for file changes with StatReloader
+2023-11-21 11:28:19,119 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:28:20,191 Watching for file changes with StatReloader
+2023-11-21 11:28:27,245 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:28:28,333 Watching for file changes with StatReloader
+2023-11-21 11:28:29,913 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:28:30,964 Watching for file changes with StatReloader
+2023-11-21 11:28:44,402 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:28:45,433 Watching for file changes with StatReloader
+2023-11-21 11:28:46,852 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:28:47,931 Watching for file changes with StatReloader
+2023-11-21 11:28:50,417 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:28:51,513 Watching for file changes with StatReloader
+2023-11-21 11:28:53,977 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:28:55,022 Watching for file changes with StatReloader
+2023-11-21 11:28:56,391 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:28:57,475 Watching for file changes with StatReloader
+2023-11-21 11:29:02,145 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:29:03,227 Watching for file changes with StatReloader
+2023-11-21 11:29:04,793 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:29:05,843 Watching for file changes with StatReloader
+2023-11-21 11:29:08,312 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:29:09,325 Watching for file changes with StatReloader
+2023-11-21 11:29:13,094 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:29:14,191 Watching for file changes with StatReloader
+2023-11-21 11:29:16,633 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:29:17,680 Watching for file changes with StatReloader
+2023-11-21 11:29:22,556 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:29:23,648 Watching for file changes with StatReloader
+2023-11-21 11:29:27,201 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:29:28,275 Watching for file changes with StatReloader
+2023-11-21 11:29:31,838 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:29:32,918 Watching for file changes with StatReloader
+2023-11-21 11:29:36,495 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:29:37,576 Watching for file changes with StatReloader
+2023-11-21 11:29:43,309 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:29:44,355 Watching for file changes with StatReloader
+2023-11-21 11:30:04,397 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:30:05,570 Watching for file changes with StatReloader
+2023-11-21 11:30:23,676 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:30:24,769 Watching for file changes with StatReloader
+2023-11-21 11:32:58,322 Not Found: /api/doc/1/
+2023-11-21 11:33:51,393 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:33:52,556 Watching for file changes with StatReloader
+2023-11-21 11:33:55,204 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:33:56,333 Watching for file changes with StatReloader
+2023-11-21 11:34:00,120 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:34:01,313 Watching for file changes with StatReloader
+2023-11-21 11:34:17,034 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:34:18,180 Watching for file changes with StatReloader
+2023-11-21 11:34:33,891 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:34:34,951 Watching for file changes with StatReloader
+2023-11-21 11:34:37,519 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:34:38,590 Watching for file changes with StatReloader
+2023-11-21 11:35:47,324 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:35:48,460 Watching for file changes with StatReloader
+2023-11-21 11:35:51,152 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:35:52,206 Watching for file changes with StatReloader
+2023-11-21 11:35:54,869 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:35:55,952 Watching for file changes with StatReloader
+2023-11-21 11:36:11,849 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:36:12,974 Watching for file changes with StatReloader
+2023-11-21 11:36:28,815 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:36:29,892 Watching for file changes with StatReloader
+2023-11-21 11:36:31,415 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:36:32,494 Watching for file changes with StatReloader
+2023-11-21 11:36:35,092 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:36:36,172 Watching for file changes with StatReloader
+2023-11-21 11:36:42,040 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:36:43,078 Watching for file changes with StatReloader
+2023-11-21 11:36:50,067 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:36:51,115 Watching for file changes with StatReloader
+2023-11-21 11:36:56,931 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:36:58,009 Watching for file changes with StatReloader
+2023-11-21 11:37:13,736 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:37:14,791 Watching for file changes with StatReloader
+2023-11-21 11:37:22,995 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:37:24,025 Watching for file changes with StatReloader
+2023-11-21 11:37:36,630 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:37:37,697 Watching for file changes with StatReloader
+2023-11-21 11:39:07,786 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:39:08,884 Watching for file changes with StatReloader
+2023-11-21 11:39:13,732 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:39:14,844 Watching for file changes with StatReloader
+2023-11-21 11:39:20,829 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:39:21,905 Watching for file changes with StatReloader
+2023-11-21 11:39:31,120 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:39:32,150 Watching for file changes with StatReloader
+2023-11-21 11:39:44,781 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:39:45,868 Watching for file changes with StatReloader
+2023-11-21 11:39:50,721 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:39:51,841 Watching for file changes with StatReloader
+2023-11-21 11:39:55,565 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:39:56,620 Watching for file changes with StatReloader
+2023-11-21 11:39:58,158 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:39:59,175 Watching for file changes with StatReloader
+2023-11-21 11:42:14,265 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:42:15,379 Watching for file changes with StatReloader
+2023-11-21 11:42:16,947 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:42:17,980 Watching for file changes with StatReloader
+2023-11-21 11:42:35,881 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:42:36,929 Watching for file changes with StatReloader
+2023-11-21 11:42:41,727 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:42:42,828 Watching for file changes with StatReloader
+2023-11-21 11:42:59,717 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:43:00,796 Watching for file changes with StatReloader
+2023-11-21 11:43:32,919 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:43:34,034 Watching for file changes with StatReloader
+2023-11-21 11:43:52,178 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:43:53,296 Watching for file changes with StatReloader
+2023-11-21 11:44:15,794 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:44:16,842 Watching for file changes with StatReloader
+2023-11-21 11:44:20,514 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:44:21,607 Watching for file changes with StatReloader
+2023-11-21 11:45:09,484 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:45:10,588 Watching for file changes with StatReloader
+2023-11-21 11:45:13,313 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:45:14,381 Watching for file changes with StatReloader
+2023-11-21 11:45:18,209 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:45:19,301 Watching for file changes with StatReloader
+2023-11-21 11:45:21,967 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:45:23,141 Watching for file changes with StatReloader
+2023-11-21 11:45:26,913 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:45:27,970 Watching for file changes with StatReloader
+2023-11-21 11:45:51,546 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:45:52,662 Watching for file changes with StatReloader
+2023-11-21 11:46:07,499 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:46:08,593 Watching for file changes with StatReloader
+2023-11-21 11:46:36,692 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:46:37,775 Watching for file changes with StatReloader
+2023-11-21 11:46:42,665 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:46:43,709 Watching for file changes with StatReloader
+2023-11-21 11:46:50,811 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:46:51,926 Watching for file changes with StatReloader
+2023-11-21 11:48:07,461 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:48:08,526 Watching for file changes with StatReloader
+2023-11-21 11:48:11,188 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:48:12,213 Watching for file changes with StatReloader
+2023-11-21 11:48:13,767 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:48:14,835 Watching for file changes with StatReloader
+2023-11-21 11:48:22,871 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:48:23,929 Watching for file changes with StatReloader
+2023-11-21 11:48:42,922 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:48:43,987 Watching for file changes with StatReloader
+2023-11-21 11:49:04,062 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:49:05,143 Watching for file changes with StatReloader
+2023-11-21 11:49:42,970 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:49:44,017 Watching for file changes with StatReloader
+2023-11-21 11:50:04,250 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:50:05,361 Watching for file changes with StatReloader
+2023-11-21 11:50:24,490 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:50:25,541 Watching for file changes with StatReloader
+2023-11-21 11:51:07,853 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:51:08,979 Watching for file changes with StatReloader
+2023-11-21 11:51:22,723 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:51:23,817 Watching for file changes with StatReloader
+2023-11-21 11:51:56,305 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:51:57,421 Watching for file changes with StatReloader
+2023-11-21 11:52:02,336 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:52:03,408 Watching for file changes with StatReloader
+2023-11-21 11:52:08,249 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:52:09,290 Watching for file changes with StatReloader
+2023-11-21 11:52:18,471 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:52:19,471 Watching for file changes with StatReloader
+2023-11-21 11:52:22,094 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:52:23,203 Watching for file changes with StatReloader
+2023-11-21 11:52:30,287 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:52:31,331 Watching for file changes with StatReloader
+2023-11-21 11:52:39,486 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:52:40,537 Watching for file changes with StatReloader
+2023-11-21 11:52:45,388 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:52:46,426 Watching for file changes with StatReloader
+2023-11-21 11:52:49,056 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:52:50,106 Watching for file changes with StatReloader
+2023-11-21 11:52:53,889 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:52:54,951 Watching for file changes with StatReloader
+2023-11-21 11:52:57,592 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:52:58,626 Watching for file changes with StatReloader
+2023-11-21 11:53:02,382 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:53:03,481 Watching for file changes with StatReloader
+2023-11-21 11:53:19,365 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:53:20,515 Watching for file changes with StatReloader
+2023-11-21 11:53:27,645 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:53:28,668 Watching for file changes with StatReloader
+2023-11-21 11:53:35,773 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:53:36,869 Watching for file changes with StatReloader
+2023-11-21 11:53:41,712 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:53:42,742 Watching for file changes with StatReloader
+2023-11-21 11:54:32,410 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:54:33,513 Watching for file changes with StatReloader
+2023-11-21 11:54:41,708 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:54:42,791 Watching for file changes with StatReloader
+2023-11-21 11:54:59,743 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:55:00,793 Watching for file changes with StatReloader
+2023-11-21 11:55:02,422 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:55:03,502 Watching for file changes with StatReloader
+2023-11-21 11:55:05,960 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:55:07,059 Watching for file changes with StatReloader
+2023-11-21 11:55:08,476 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:55:09,542 Watching for file changes with StatReloader
+2023-11-21 11:55:15,325 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:55:16,432 Watching for file changes with StatReloader
+2023-11-21 11:55:51,851 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:55:52,964 Watching for file changes with StatReloader
+2023-11-21 11:55:59,872 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:56:00,913 Watching for file changes with StatReloader
+2023-11-21 11:56:06,691 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:56:07,729 Watching for file changes with StatReloader
+2023-11-21 11:56:12,428 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:56:13,512 Watching for file changes with StatReloader
+2023-11-21 11:56:14,887 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:56:15,896 Watching for file changes with StatReloader
+2023-11-21 11:56:25,993 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:56:27,009 Watching for file changes with StatReloader
+2023-11-21 11:56:28,427 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 11:56:29,429 Watching for file changes with StatReloader
+2023-11-21 11:58:23,819 Watching for file changes with StatReloader
+2023-11-21 11:58:42,718 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:58:43,804 Watching for file changes with StatReloader
+2023-11-21 11:58:45,199 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:58:46,310 Watching for file changes with StatReloader
+2023-11-21 11:58:47,695 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:58:48,768 Watching for file changes with StatReloader
+2023-11-21 11:58:58,996 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:59:00,012 Watching for file changes with StatReloader
+2023-11-21 11:59:01,411 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:59:02,442 Watching for file changes with StatReloader
+2023-11-21 11:59:04,911 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:59:05,940 Watching for file changes with StatReloader
+2023-11-21 11:59:07,324 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:59:08,425 Watching for file changes with StatReloader
+2023-11-21 11:59:11,130 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:59:12,234 Watching for file changes with StatReloader
+2023-11-21 11:59:14,917 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:59:15,985 Watching for file changes with StatReloader
+2023-11-21 11:59:20,852 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 11:59:21,906 Watching for file changes with StatReloader
+2023-11-21 12:01:54,619 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:01:55,708 Watching for file changes with StatReloader
+2023-11-21 12:02:03,845 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:02:04,963 Watching for file changes with StatReloader
+2023-11-21 12:02:07,529 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:02:08,622 Watching for file changes with StatReloader
+2023-11-21 12:02:10,091 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:02:11,154 Watching for file changes with StatReloader
+2023-11-21 12:04:07,663 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:04:08,713 Watching for file changes with StatReloader
+2023-11-21 12:04:23,464 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:04:24,463 Watching for file changes with StatReloader
+2023-11-21 12:04:27,121 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:04:28,216 Watching for file changes with StatReloader
+2023-11-21 12:04:33,099 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:04:34,174 Watching for file changes with StatReloader
+2023-11-21 12:04:37,962 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:04:39,034 Watching for file changes with StatReloader
+2023-11-21 12:04:43,917 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:04:44,985 Watching for file changes with StatReloader
+2023-11-21 12:04:47,475 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:04:48,539 Watching for file changes with StatReloader
+2023-11-21 12:04:57,827 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:04:58,925 Watching for file changes with StatReloader
+2023-11-21 12:07:01,982 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:07:03,081 Watching for file changes with StatReloader
+2023-11-21 12:07:21,920 Internal Server Error: /api/pat/
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\fields.py", line 446, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\fields.py", line 96, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\abdul\Django_Prac\portfolio\project\views.py", line 496, in list
+    return Response(serializer.data)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\fields.py", line 479, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `name` on serializer `PatientSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'name'.
+2023-11-21 12:09:06,472 Internal Server Error: /api/pat/
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\fields.py", line 446, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\fields.py", line 96, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\abdul\Django_Prac\portfolio\project\views.py", line 496, in list
+    return Response(serializer.data)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\fields.py", line 479, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `name` on serializer `PatientSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'name'.
+2023-11-21 12:09:17,139 Internal Server Error: /api/pat/
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\fields.py", line 446, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\fields.py", line 96, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\abdul\Django_Prac\portfolio\project\views.py", line 496, in list
+    return Response(serializer.data)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\fields.py", line 479, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `name` on serializer `PatientSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'name'.
+2023-11-21 12:09:42,253 Watching for file changes with StatReloader
+2023-11-21 12:09:48,824 Internal Server Error: /api/pat/
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\fields.py", line 446, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\fields.py", line 96, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\abdul\Django_Prac\portfolio\project\views.py", line 496, in list
+    return Response(serializer.data)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\fields.py", line 479, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `name` on serializer `PatientSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'name'.
+2023-11-21 12:10:53,867 Internal Server Error: /api/pat/
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\fields.py", line 446, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\fields.py", line 96, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\abdul\Django_Prac\portfolio\project\views.py", line 496, in list
+    return Response(serializer.data)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\fields.py", line 479, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `name` on serializer `PatientSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'name'.
+2023-11-21 12:13:12,360 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:13:13,439 Watching for file changes with StatReloader
+2023-11-21 12:29:47,532 C:\Users\abdul\Django_Prac\portfolio\portfolio\settings.py changed, reloading.
+2023-11-21 12:29:48,720 Watching for file changes with StatReloader
+2023-11-21 12:30:14,616 C:\Users\abdul\Django_Prac\portfolio\portfolio\settings.py changed, reloading.
+2023-11-21 12:30:15,671 Watching for file changes with StatReloader
+2023-11-21 12:30:17,204 C:\Users\abdul\Django_Prac\portfolio\portfolio\settings.py changed, reloading.
+2023-11-21 12:30:18,319 Watching for file changes with StatReloader
+2023-11-21 12:31:31,855 Watching for file changes with StatReloader
+2023-11-21 12:35:17,873 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:35:19,019 Watching for file changes with StatReloader
+2023-11-21 12:35:25,011 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:35:26,088 Watching for file changes with StatReloader
+2023-11-21 12:35:27,469 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:35:28,543 Watching for file changes with StatReloader
+2023-11-21 12:35:31,036 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:35:32,103 Watching for file changes with StatReloader
+2023-11-21 12:35:34,569 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:35:35,666 Watching for file changes with StatReloader
+2023-11-21 12:35:42,532 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:35:43,679 Watching for file changes with StatReloader
+2023-11-21 12:35:45,240 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:35:46,294 Watching for file changes with StatReloader
+2023-11-21 12:35:47,858 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:35:48,960 Watching for file changes with StatReloader
+2023-11-21 12:35:52,751 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:35:53,907 Watching for file changes with StatReloader
+2023-11-21 12:35:56,401 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:35:57,478 Watching for file changes with StatReloader
+2023-11-21 12:36:03,407 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:36:04,446 Watching for file changes with StatReloader
+2023-11-21 12:36:09,280 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:36:10,353 Watching for file changes with StatReloader
+2023-11-21 12:36:11,934 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:36:13,043 Watching for file changes with StatReloader
+2023-11-21 12:36:15,736 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:36:16,832 Watching for file changes with StatReloader
+2023-11-21 12:36:47,120 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:36:48,308 Watching for file changes with StatReloader
+2023-11-21 12:36:55,260 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:36:56,319 Watching for file changes with StatReloader
+2023-11-21 12:36:58,872 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:36:59,974 Watching for file changes with StatReloader
+2023-11-21 12:37:03,651 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:37:04,736 Watching for file changes with StatReloader
+2023-11-21 12:37:07,240 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:37:08,316 Watching for file changes with StatReloader
+2023-11-21 12:37:54,838 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:37:55,923 Watching for file changes with StatReloader
+2023-11-21 12:38:08,576 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:38:09,658 Watching for file changes with StatReloader
+2023-11-21 12:38:12,270 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:38:13,342 Watching for file changes with StatReloader
+2023-11-21 12:38:14,676 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:38:15,755 Watching for file changes with StatReloader
+2023-11-21 12:38:23,753 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:38:24,829 Watching for file changes with StatReloader
+2023-11-21 12:38:26,328 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:38:27,372 Watching for file changes with StatReloader
+2023-11-21 12:38:29,940 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:38:31,020 Watching for file changes with StatReloader
+2023-11-21 12:38:37,847 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:38:38,919 Watching for file changes with StatReloader
+2023-11-21 12:38:43,652 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:38:44,725 Watching for file changes with StatReloader
+2023-11-21 12:38:47,266 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:38:48,293 Watching for file changes with StatReloader
+2023-11-21 12:38:53,051 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:38:54,173 Watching for file changes with StatReloader
+2023-11-21 12:38:56,723 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:38:57,803 Watching for file changes with StatReloader
+2023-11-21 12:39:04,744 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:39:05,810 Watching for file changes with StatReloader
+2023-11-21 12:39:10,685 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:39:11,878 Watching for file changes with StatReloader
+2023-11-21 12:39:13,455 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:39:14,537 Watching for file changes with StatReloader
+2023-11-21 12:39:26,026 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:39:27,050 Watching for file changes with StatReloader
+2023-11-21 12:39:39,638 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:39:40,739 Watching for file changes with StatReloader
+2023-11-21 12:39:44,517 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:39:45,564 Watching for file changes with StatReloader
+2023-11-21 12:39:47,139 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:39:48,206 Watching for file changes with StatReloader
+2023-11-21 12:39:50,951 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:39:52,071 Watching for file changes with StatReloader
+2023-11-21 12:39:54,746 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:39:55,910 Watching for file changes with StatReloader
+2023-11-21 12:40:04,087 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:40:05,192 Watching for file changes with StatReloader
+2023-11-21 12:40:09,051 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:40:10,294 Watching for file changes with StatReloader
+2023-11-21 12:40:18,506 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:40:19,580 Watching for file changes with StatReloader
+2023-11-21 12:40:21,174 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:40:22,283 Watching for file changes with StatReloader
+2023-11-21 12:40:29,387 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:40:30,513 Watching for file changes with StatReloader
+2023-11-21 12:40:35,211 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:40:36,263 Watching for file changes with StatReloader
+2023-11-21 12:40:38,698 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:40:39,805 Watching for file changes with StatReloader
+2023-11-21 12:40:44,479 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:40:45,524 Watching for file changes with StatReloader
+2023-11-21 12:40:51,236 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:40:52,396 Watching for file changes with StatReloader
+2023-11-21 12:40:53,763 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:40:54,808 Watching for file changes with StatReloader
+2023-11-21 12:40:57,261 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:40:58,291 Watching for file changes with StatReloader
+2023-11-21 12:41:01,874 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:41:03,582 Watching for file changes with StatReloader
+2023-11-21 12:41:32,356 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:41:33,487 Watching for file changes with StatReloader
+2023-11-21 12:41:43,678 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:41:44,791 Watching for file changes with StatReloader
+2023-11-21 12:41:48,365 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:41:49,433 Watching for file changes with StatReloader
+2023-11-21 12:41:55,180 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:41:56,320 Watching for file changes with StatReloader
+2023-11-21 12:41:57,694 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:41:58,771 Watching for file changes with StatReloader
+2023-11-21 12:42:01,264 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:42:02,377 Watching for file changes with StatReloader
+2023-11-21 12:42:03,735 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:42:04,790 Watching for file changes with StatReloader
+2023-11-21 12:42:07,228 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:42:08,298 Watching for file changes with StatReloader
+2023-11-21 12:42:09,653 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:42:10,730 Watching for file changes with StatReloader
+2023-11-21 12:42:12,100 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:42:13,198 Watching for file changes with StatReloader
+2023-11-21 12:42:20,008 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:42:21,100 Watching for file changes with StatReloader
+2023-11-21 12:42:22,693 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:42:23,786 Watching for file changes with StatReloader
+2023-11-21 12:42:25,376 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:42:26,479 Watching for file changes with StatReloader
+2023-11-21 12:42:28,064 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:42:29,214 Watching for file changes with StatReloader
+2023-11-21 12:42:30,794 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:42:32,044 Watching for file changes with StatReloader
+2023-11-21 12:42:54,614 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:42:55,729 Watching for file changes with StatReloader
+2023-11-21 12:42:57,346 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:42:58,396 Watching for file changes with StatReloader
+2023-11-21 12:43:03,264 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:43:04,272 Watching for file changes with StatReloader
+2023-11-21 12:43:09,119 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:43:10,143 Watching for file changes with StatReloader
+2023-11-21 12:43:13,917 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:43:14,953 Watching for file changes with StatReloader
+2023-11-21 12:43:17,654 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:43:18,729 Watching for file changes with StatReloader
+2023-11-21 12:43:33,561 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:43:34,673 Watching for file changes with StatReloader
+2023-11-21 12:43:46,148 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:43:47,216 Watching for file changes with StatReloader
+2023-11-21 12:43:48,808 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:43:49,917 Watching for file changes with StatReloader
+2023-11-21 12:43:54,877 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:43:55,902 Watching for file changes with StatReloader
+2023-11-21 12:43:57,335 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:43:58,446 Watching for file changes with StatReloader
+2023-11-21 12:44:02,052 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:44:03,213 Watching for file changes with StatReloader
+2023-11-21 12:44:10,204 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:44:11,235 Watching for file changes with StatReloader
+2023-11-21 12:44:17,091 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:44:18,220 Watching for file changes with StatReloader
+2023-11-21 12:44:20,809 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:44:21,941 Watching for file changes with StatReloader
+2023-11-21 12:44:26,817 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:44:27,887 Watching for file changes with StatReloader
+2023-11-21 12:44:29,452 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:44:30,485 Watching for file changes with StatReloader
+2023-11-21 12:44:33,162 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:44:34,269 Watching for file changes with StatReloader
+2023-11-21 12:44:35,732 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:44:36,804 Watching for file changes with StatReloader
+2023-11-21 12:44:43,772 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:44:44,906 Watching for file changes with StatReloader
+2023-11-21 12:44:58,410 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:44:59,502 Watching for file changes with StatReloader
+2023-11-21 12:45:00,973 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:45:02,037 Watching for file changes with StatReloader
+2023-11-21 12:45:04,605 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:45:05,702 Watching for file changes with StatReloader
+2023-11-21 12:45:14,800 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:45:15,874 Watching for file changes with StatReloader
+2023-11-21 12:45:21,697 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:45:22,753 Watching for file changes with StatReloader
+2023-11-21 12:45:28,614 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:45:29,685 Watching for file changes with StatReloader
+2023-11-21 12:46:08,376 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:46:09,471 Watching for file changes with StatReloader
+2023-11-21 12:46:10,915 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:46:11,940 Watching for file changes with StatReloader
+2023-11-21 12:46:16,636 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:46:17,681 Watching for file changes with StatReloader
+2023-11-21 12:46:30,059 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:46:31,127 Watching for file changes with StatReloader
+2023-11-21 12:46:34,753 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:46:35,761 Watching for file changes with StatReloader
+2023-11-21 12:46:41,727 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:46:42,809 Watching for file changes with StatReloader
+2023-11-21 12:46:58,503 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:46:59,564 Watching for file changes with StatReloader
+2023-11-21 12:47:04,394 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:47:05,478 Watching for file changes with StatReloader
+2023-11-21 12:47:14,717 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:47:15,786 Watching for file changes with StatReloader
+2023-11-21 12:47:17,247 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:47:18,361 Watching for file changes with StatReloader
+2023-11-21 12:47:22,166 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:47:23,202 Watching for file changes with StatReloader
+2023-11-21 12:47:30,264 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:47:31,313 Watching for file changes with StatReloader
+2023-11-21 12:47:50,499 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:47:51,631 Watching for file changes with StatReloader
+2023-11-21 12:47:54,187 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:47:55,236 Watching for file changes with StatReloader
+2023-11-21 12:47:56,817 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:47:57,918 Watching for file changes with StatReloader
+2023-11-21 12:48:09,400 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:48:10,485 Watching for file changes with StatReloader
+2023-11-21 12:48:24,114 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:48:25,181 Watching for file changes with StatReloader
+2023-11-21 12:48:27,865 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:48:28,933 Watching for file changes with StatReloader
+2023-11-21 12:48:33,616 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:48:34,661 Watching for file changes with StatReloader
+2023-11-21 12:48:38,242 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:48:39,290 Watching for file changes with StatReloader
+2023-11-21 12:48:45,298 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:48:46,354 Watching for file changes with StatReloader
+2023-11-21 12:48:49,023 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:48:50,070 Watching for file changes with StatReloader
+2023-11-21 12:48:51,671 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:48:52,754 Watching for file changes with StatReloader
+2023-11-21 12:48:55,426 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:48:56,503 Watching for file changes with StatReloader
+2023-11-21 12:49:00,325 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:49:01,396 Watching for file changes with StatReloader
+2023-11-21 12:49:02,957 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:49:04,059 Watching for file changes with StatReloader
+2023-11-21 12:49:08,816 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:49:09,924 Watching for file changes with StatReloader
+2023-11-21 12:49:12,509 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:49:13,631 Watching for file changes with StatReloader
+2023-11-21 12:49:16,337 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:49:17,436 Watching for file changes with StatReloader
+2023-11-21 12:49:19,043 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:49:20,176 Watching for file changes with StatReloader
+2023-11-21 12:49:23,820 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:49:24,883 Watching for file changes with StatReloader
+2023-11-21 12:49:28,563 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:49:29,647 Watching for file changes with StatReloader
+2023-11-21 12:49:33,375 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:49:34,463 Watching for file changes with StatReloader
+2023-11-21 12:49:37,029 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:49:38,087 Watching for file changes with StatReloader
+2023-11-21 12:49:50,498 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:49:51,578 Watching for file changes with StatReloader
+2023-11-21 12:49:57,426 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:49:58,492 Watching for file changes with StatReloader
+2023-11-21 12:50:18,887 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:50:19,939 Watching for file changes with StatReloader
+2023-11-21 12:50:22,610 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:50:23,599 Watching for file changes with StatReloader
+2023-11-21 12:50:28,322 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 12:50:29,301 Watching for file changes with StatReloader
+2023-11-21 12:51:00,593 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 12:51:01,660 Watching for file changes with StatReloader
+2023-11-21 12:51:03,257 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 12:51:04,372 Watching for file changes with StatReloader
+2023-11-21 12:51:05,938 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 12:51:07,054 Watching for file changes with StatReloader
+2023-11-21 12:51:08,671 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 12:51:09,902 Watching for file changes with StatReloader
+2023-11-21 12:51:30,202 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 12:51:31,272 Watching for file changes with StatReloader
+2023-11-21 12:51:33,895 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 12:51:34,908 Watching for file changes with StatReloader
+2023-11-21 12:51:37,391 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 12:51:38,510 Watching for file changes with StatReloader
+2023-11-21 12:51:42,060 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 12:51:43,338 Watching for file changes with StatReloader
+2023-11-21 12:52:06,052 Method Not Allowed: /api/register/
+2023-11-21 12:52:27,323 Bad Request: /api/register/
+2023-11-21 12:53:09,995 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:53:11,143 Watching for file changes with StatReloader
+2023-11-21 12:53:14,146 Bad Request: /api/register/
+2023-11-21 12:54:41,670 Bad Request: /api/register/
+2023-11-21 12:55:39,399 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:55:40,527 Watching for file changes with StatReloader
+2023-11-21 12:55:51,997 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:55:53,172 Watching for file changes with StatReloader
+2023-11-21 12:56:10,115 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:56:11,203 Watching for file changes with StatReloader
+2023-11-21 12:56:21,629 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:56:22,704 Watching for file changes with StatReloader
+2023-11-21 12:56:37,583 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:56:38,690 Watching for file changes with StatReloader
+2023-11-21 12:56:41,390 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:56:42,481 Watching for file changes with StatReloader
+2023-11-21 12:56:45,167 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:56:46,302 Watching for file changes with StatReloader
+2023-11-21 12:56:49,849 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:56:50,931 Watching for file changes with StatReloader
+2023-11-21 12:56:54,476 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:56:55,527 Watching for file changes with StatReloader
+2023-11-21 12:56:59,327 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:57:00,413 Watching for file changes with StatReloader
+2023-11-21 12:57:07,249 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:57:08,297 Watching for file changes with StatReloader
+2023-11-21 12:57:38,451 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:57:39,501 Watching for file changes with StatReloader
+2023-11-21 12:57:44,328 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:57:45,469 Watching for file changes with StatReloader
+2023-11-21 12:57:47,033 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:57:48,073 Watching for file changes with StatReloader
+2023-11-21 12:57:49,644 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:57:50,804 Watching for file changes with StatReloader
+2023-11-21 12:57:57,914 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:57:58,993 Watching for file changes with StatReloader
+2023-11-21 12:58:00,576 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:58:01,641 Watching for file changes with StatReloader
+2023-11-21 12:58:15,295 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:58:16,373 Watching for file changes with StatReloader
+2023-11-21 12:58:17,973 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 12:58:19,066 Watching for file changes with StatReloader
+2023-11-21 12:59:00,615 Not Found: /favicon.ico
+2023-11-21 13:02:08,187 Bad Request: /api/register/
+2023-11-21 13:02:18,653 Bad Request: /api/register/
+2023-11-21 13:02:23,488 Bad Request: /api/register/
+2023-11-21 13:05:19,214 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 13:05:20,329 Watching for file changes with StatReloader
+2023-11-21 13:05:21,929 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 13:05:23,037 Watching for file changes with StatReloader
+2023-11-21 13:05:29,023 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 13:05:30,186 Watching for file changes with StatReloader
+2023-11-21 13:05:36,072 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 13:05:37,180 Watching for file changes with StatReloader
+2023-11-21 13:05:41,870 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 13:05:42,964 Watching for file changes with StatReloader
+2023-11-21 13:05:45,451 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 13:05:46,499 Watching for file changes with StatReloader
+2023-11-21 13:05:55,521 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 13:05:56,591 Watching for file changes with StatReloader
+2023-11-21 13:05:58,160 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 13:05:59,249 Watching for file changes with StatReloader
+2023-11-21 13:06:05,004 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 13:06:06,064 Watching for file changes with StatReloader
+2023-11-21 13:06:07,667 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 13:06:08,745 Watching for file changes with StatReloader
+2023-11-21 13:06:10,125 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 13:06:11,183 Watching for file changes with StatReloader
+2023-11-21 13:06:15,800 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 13:06:16,866 Watching for file changes with StatReloader
+2023-11-21 13:07:09,179 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:07:10,243 Watching for file changes with StatReloader
+2023-11-21 13:07:12,913 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:07:13,925 Watching for file changes with StatReloader
+2023-11-21 13:07:15,515 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:07:16,536 Watching for file changes with StatReloader
+2023-11-21 13:07:19,211 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:07:20,260 Watching for file changes with StatReloader
+2023-11-21 13:07:29,383 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:07:30,521 Watching for file changes with StatReloader
+2023-11-21 13:07:46,345 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:07:47,484 Watching for file changes with StatReloader
+2023-11-21 13:07:52,248 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:07:53,321 Watching for file changes with StatReloader
+2023-11-21 13:07:59,226 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:08:00,324 Watching for file changes with StatReloader
+2023-11-21 13:08:05,264 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:08:06,411 Watching for file changes with StatReloader
+2023-11-21 13:08:11,302 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:08:12,412 Watching for file changes with StatReloader
+2023-11-21 13:08:27,312 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:08:28,388 Watching for file changes with StatReloader
+2023-11-21 13:08:32,155 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:08:33,186 Watching for file changes with StatReloader
+2023-11-21 13:08:34,770 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:08:35,769 Watching for file changes with StatReloader
+2023-11-21 13:08:38,404 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:08:39,478 Watching for file changes with StatReloader
+2023-11-21 13:08:43,108 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:08:44,198 Watching for file changes with StatReloader
+2023-11-21 13:08:46,767 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:08:47,853 Watching for file changes with StatReloader
+2023-11-21 13:08:50,542 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:08:51,607 Watching for file changes with StatReloader
+2023-11-21 13:08:54,282 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:08:55,304 Watching for file changes with StatReloader
+2023-11-21 13:08:56,868 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:08:57,958 Watching for file changes with StatReloader
+2023-11-21 13:09:11,568 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:09:12,675 Watching for file changes with StatReloader
+2023-11-21 13:09:53,926 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:09:54,995 Watching for file changes with StatReloader
+2023-11-21 13:10:11,836 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:10:12,987 Watching for file changes with StatReloader
+2023-11-21 13:10:20,016 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:10:21,080 Watching for file changes with StatReloader
+2023-11-21 13:10:22,476 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:10:23,639 Watching for file changes with StatReloader
+2023-11-21 13:10:30,874 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:10:31,893 Watching for file changes with StatReloader
+2023-11-21 13:10:37,899 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:10:39,069 Watching for file changes with StatReloader
+2023-11-21 13:10:45,078 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:10:46,127 Watching for file changes with StatReloader
+2023-11-21 13:10:52,104 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:10:53,276 Watching for file changes with StatReloader
+2023-11-21 13:10:54,861 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:10:56,039 Watching for file changes with StatReloader
+2023-11-21 13:10:57,521 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:10:58,601 Watching for file changes with StatReloader
+2023-11-21 13:11:03,486 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:11:04,547 Watching for file changes with StatReloader
+2023-11-21 13:11:08,236 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:11:09,299 Watching for file changes with StatReloader
+2023-11-21 13:11:14,037 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:11:15,138 Watching for file changes with StatReloader
+2023-11-21 13:11:23,295 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:11:24,388 Watching for file changes with StatReloader
+2023-11-21 13:11:30,389 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:11:31,488 Watching for file changes with StatReloader
+2023-11-21 13:11:35,298 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:11:36,385 Watching for file changes with StatReloader
+2023-11-21 13:12:03,376 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:12:04,559 Watching for file changes with StatReloader
+2023-11-21 13:12:23,920 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:12:25,031 Watching for file changes with StatReloader
+2023-11-21 13:12:27,632 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:12:28,799 Watching for file changes with StatReloader
+2023-11-21 13:12:32,489 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:12:33,577 Watching for file changes with StatReloader
+2023-11-21 13:12:38,306 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:12:39,441 Watching for file changes with StatReloader
+2023-11-21 13:12:47,683 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:12:48,792 Watching for file changes with StatReloader
+2023-11-21 13:12:51,486 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:12:52,603 Watching for file changes with StatReloader
+2023-11-21 13:12:56,423 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:12:57,503 Watching for file changes with StatReloader
+2023-11-21 13:13:02,415 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:13:03,488 Watching for file changes with StatReloader
+2023-11-21 13:13:10,543 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:13:11,665 Watching for file changes with StatReloader
+2023-11-21 13:13:17,689 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:13:18,747 Watching for file changes with StatReloader
+2023-11-21 13:13:21,405 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:13:22,490 Watching for file changes with StatReloader
+2023-11-21 13:13:24,053 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:13:25,283 Watching for file changes with StatReloader
+2023-11-21 13:13:43,329 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:13:44,483 Watching for file changes with StatReloader
+2023-11-21 13:14:05,941 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:14:06,971 Watching for file changes with StatReloader
+2023-11-21 13:14:09,681 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:14:10,845 Watching for file changes with StatReloader
+2023-11-21 13:14:12,444 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:14:13,581 Watching for file changes with StatReloader
+2023-11-21 13:14:15,044 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:14:16,145 Watching for file changes with StatReloader
+2023-11-21 13:14:17,623 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:14:18,799 Watching for file changes with StatReloader
+2023-11-21 13:14:20,400 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:14:21,515 Watching for file changes with StatReloader
+2023-11-21 13:14:31,949 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:14:33,028 Watching for file changes with StatReloader
+2023-11-21 13:14:35,733 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:14:36,805 Watching for file changes with StatReloader
+2023-11-21 13:14:59,358 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 13:15:00,506 Watching for file changes with StatReloader
+2023-11-21 13:15:05,382 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 13:15:06,487 Watching for file changes with StatReloader
+2023-11-21 13:15:12,459 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 13:15:13,594 Watching for file changes with StatReloader
+2023-11-21 13:15:16,268 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 13:15:17,346 Watching for file changes with StatReloader
+2023-11-21 13:15:22,039 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 13:15:23,211 Watching for file changes with StatReloader
+2023-11-21 13:15:30,093 C:\Users\abdul\Django_Prac\portfolio\api\urls.py changed, reloading.
+2023-11-21 13:15:31,211 Watching for file changes with StatReloader
+2023-11-21 13:16:04,694 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 13:16:05,778 Watching for file changes with StatReloader
+2023-11-21 13:16:09,516 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 13:16:10,708 Watching for file changes with StatReloader
+2023-11-21 13:16:47,615 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 13:16:48,741 Watching for file changes with StatReloader
+2023-11-21 13:17:04,644 Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\query.py", line 916, in get_or_create
+    return self.get(**kwargs), False
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+rest_framework.authtoken.models.Token.DoesNotExist: Token matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: authtoken_token.user_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\abdul\Django_Prac\portfolio\project\views.py", line 43, in post
+    token, _ = Token.objects.get_or_create(user=user)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\query.py", line 923, in get_or_create
+    return self.create(**params), True
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\query.py", line 658, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\authtoken\models.py", line 33, in save
+    return super().save(*args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\sql\compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\debug_toolbar\panels\sql\tracking.py", line 252, in execute
+    return self._record(super().execute, sql, params)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\debug_toolbar\panels\sql\tracking.py", line 177, in _record
+    return method(sql, params)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: authtoken_token.user_id
+2023-11-21 13:17:28,362 Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\query.py", line 916, in get_or_create
+    return self.get(**kwargs), False
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+rest_framework.authtoken.models.Token.DoesNotExist: Token matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: authtoken_token.user_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\abdul\Django_Prac\portfolio\project\views.py", line 43, in post
+    token, _ = Token.objects.get_or_create(user=user)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\query.py", line 923, in get_or_create
+    return self.create(**params), True
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\query.py", line 658, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\authtoken\models.py", line 33, in save
+    return super().save(*args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\sql\compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\debug_toolbar\panels\sql\tracking.py", line 252, in execute
+    return self._record(super().execute, sql, params)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\debug_toolbar\panels\sql\tracking.py", line 177, in _record
+    return method(sql, params)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: authtoken_token.user_id
+2023-11-21 13:18:29,843 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 13:18:30,913 Watching for file changes with StatReloader
+2023-11-21 13:18:39,093 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 13:18:40,188 Watching for file changes with StatReloader
+2023-11-21 13:18:43,990 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 13:18:45,160 Watching for file changes with StatReloader
+2023-11-21 13:52:35,966 C:\Users\abdul\Django_Prac\portfolio\portfolio\settings.py changed, reloading.
+2023-11-21 13:52:38,093 Watching for file changes with StatReloader
+2023-11-21 13:52:55,426 C:\Users\abdul\Django_Prac\portfolio\portfolio\settings.py changed, reloading.
+2023-11-21 13:52:57,177 Watching for file changes with StatReloader
+2023-11-21 13:53:20,975 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:53:22,915 Watching for file changes with StatReloader
+2023-11-21 13:53:35,022 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:53:36,914 Watching for file changes with StatReloader
+2023-11-21 13:53:40,004 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:53:41,911 Watching for file changes with StatReloader
+2023-11-21 13:53:46,285 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:53:48,448 Watching for file changes with StatReloader
+2023-11-21 13:53:50,399 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:53:52,179 Watching for file changes with StatReloader
+2023-11-21 13:59:03,357 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:59:04,544 Watching for file changes with StatReloader
+2023-11-21 13:59:05,936 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 13:59:07,050 Watching for file changes with StatReloader
+2023-11-21 13:59:39,257 Forbidden: /api/doctors/
+2023-11-21 14:00:54,479 Forbidden: /api/login/
+2023-11-21 14:01:01,279 Forbidden: /api/login/
+2023-11-21 14:01:18,365 Forbidden: /api/login/
+2023-11-21 14:01:41,023 Forbidden: /api/login/
+2023-11-21 14:02:15,804 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:02:16,933 Watching for file changes with StatReloader
+2023-11-21 14:02:33,625 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:02:34,752 Watching for file changes with StatReloader
+2023-11-21 14:02:37,230 Forbidden: /api/login/
+2023-11-21 14:02:52,982 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:02:54,106 Watching for file changes with StatReloader
+2023-11-21 14:02:55,722 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:02:56,742 Watching for file changes with StatReloader
+2023-11-21 14:02:58,089 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:02:59,209 Watching for file changes with StatReloader
+2023-11-21 14:03:00,786 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:03:01,910 Watching for file changes with StatReloader
+2023-11-21 14:03:37,540 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:03:38,669 Watching for file changes with StatReloader
+2023-11-21 14:03:41,231 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:03:42,276 Watching for file changes with StatReloader
+2023-11-21 14:03:45,926 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:03:47,044 Watching for file changes with StatReloader
+2023-11-21 14:03:48,594 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:03:49,663 Watching for file changes with StatReloader
+2023-11-21 14:03:51,062 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:03:52,163 Watching for file changes with StatReloader
+2023-11-21 14:04:44,061 Forbidden: /api/doctors/
+2023-11-21 14:04:48,457 Forbidden: /api/doctors/
+2023-11-21 14:05:49,528 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:05:50,700 Watching for file changes with StatReloader
+2023-11-21 14:05:54,246 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:05:55,348 Watching for file changes with StatReloader
+2023-11-21 14:05:56,696 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:05:57,804 Watching for file changes with StatReloader
+2023-11-21 14:06:00,385 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:06:01,478 Watching for file changes with StatReloader
+2023-11-21 14:06:07,444 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:06:08,493 Watching for file changes with StatReloader
+2023-11-21 14:06:10,094 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:06:11,156 Watching for file changes with StatReloader
+2023-11-21 14:06:24,129 Forbidden: /api/doctors/
+2023-11-21 14:06:53,605 C:\Users\abdul\Django_Prac\portfolio\portfolio\settings.py changed, reloading.
+2023-11-21 14:06:54,666 Watching for file changes with StatReloader
+2023-11-21 14:06:59,504 C:\Users\abdul\Django_Prac\portfolio\portfolio\settings.py changed, reloading.
+2023-11-21 14:07:14,616 Watching for file changes with StatReloader
+2023-11-21 14:23:38,634 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:23:39,693 Watching for file changes with StatReloader
+2023-11-21 14:23:42,345 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:23:43,471 Watching for file changes with StatReloader
+2023-11-21 14:23:46,110 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:23:47,177 Watching for file changes with StatReloader
+2023-11-21 14:23:50,821 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:23:51,909 Watching for file changes with StatReloader
+2023-11-21 14:23:55,604 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:23:56,687 Watching for file changes with StatReloader
+2023-11-21 14:24:21,493 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:24:22,650 Watching for file changes with StatReloader
+2023-11-21 14:24:32,869 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:24:33,888 Watching for file changes with StatReloader
+2023-11-21 14:24:35,435 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:24:36,517 Watching for file changes with StatReloader
+2023-11-21 14:27:55,320 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:27:56,452 Watching for file changes with StatReloader
+2023-11-21 14:28:00,206 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:28:01,337 Watching for file changes with StatReloader
+2023-11-21 14:28:05,021 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:28:06,157 Watching for file changes with StatReloader
+2023-11-21 14:28:12,042 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:28:13,162 Watching for file changes with StatReloader
+2023-11-21 14:28:14,635 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:28:15,648 Watching for file changes with StatReloader
+2023-11-21 14:28:18,182 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:28:19,149 Watching for file changes with StatReloader
+2023-11-21 14:28:22,771 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:28:24,015 Watching for file changes with StatReloader
+2023-11-21 14:31:26,637 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:31:27,825 Watching for file changes with StatReloader
+2023-11-21 14:31:32,631 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:31:33,772 Watching for file changes with StatReloader
+2023-11-21 14:31:43,986 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:31:45,048 Watching for file changes with StatReloader
+2023-11-21 14:31:55,125 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:31:56,160 Watching for file changes with StatReloader
+2023-11-21 14:32:00,923 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:32:02,030 Watching for file changes with StatReloader
+2023-11-21 14:32:03,594 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:32:04,654 Watching for file changes with StatReloader
+2023-11-21 14:32:07,276 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:32:08,366 Watching for file changes with StatReloader
+2023-11-21 14:32:12,140 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:32:13,250 Watching for file changes with StatReloader
+2023-11-21 14:32:14,815 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:32:15,880 Watching for file changes with StatReloader
+2023-11-21 14:32:18,578 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:32:19,607 Watching for file changes with StatReloader
+2023-11-21 14:32:23,369 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:32:24,397 Watching for file changes with StatReloader
+2023-11-21 14:32:27,016 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:32:28,064 Watching for file changes with StatReloader
+2023-11-21 14:32:35,118 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:32:36,206 Watching for file changes with StatReloader
+2023-11-21 14:32:37,755 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:32:38,799 Watching for file changes with StatReloader
+2023-11-21 14:32:42,597 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:32:43,636 Watching for file changes with StatReloader
+2023-11-21 14:32:52,779 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:32:53,796 Watching for file changes with StatReloader
+2023-11-21 14:32:55,266 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:32:56,305 Watching for file changes with StatReloader
+2023-11-21 14:32:58,959 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:33:00,010 Watching for file changes with StatReloader
+2023-11-21 14:33:05,976 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:33:07,042 Watching for file changes with StatReloader
+2023-11-21 14:33:24,016 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:33:25,110 Watching for file changes with StatReloader
+2023-11-21 14:33:47,633 Not Found: /api/docs/
+2023-11-21 14:34:50,646 Method Not Allowed: /api/doc/call_person/
+2023-11-21 14:36:49,070 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:36:50,180 Watching for file changes with StatReloader
+2023-11-21 14:36:53,946 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:36:55,001 Watching for file changes with StatReloader
+2023-11-21 14:36:56,559 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:36:57,701 Watching for file changes with StatReloader
+2023-11-21 14:37:03,623 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:37:04,854 Watching for file changes with StatReloader
+2023-11-21 14:37:13,025 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:37:14,134 Watching for file changes with StatReloader
+2023-11-21 14:37:41,102 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:37:42,215 Watching for file changes with StatReloader
+2023-11-21 14:37:56,986 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:37:58,022 Watching for file changes with StatReloader
+2023-11-21 14:38:03,932 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:38:05,047 Watching for file changes with StatReloader
+2023-11-21 14:38:07,745 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:38:08,760 Watching for file changes with StatReloader
+2023-11-21 14:38:12,569 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:38:13,661 Watching for file changes with StatReloader
+2023-11-21 14:38:27,301 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:38:28,399 Watching for file changes with StatReloader
+2023-11-21 14:38:29,896 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:38:31,061 Watching for file changes with StatReloader
+2023-11-21 14:38:34,586 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:38:35,676 Watching for file changes with StatReloader
+2023-11-21 14:38:38,377 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:38:39,466 Watching for file changes with StatReloader
+2023-11-21 14:38:42,152 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:38:43,293 Watching for file changes with StatReloader
+2023-11-21 14:38:51,377 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:38:52,426 Watching for file changes with StatReloader
+2023-11-21 14:38:54,001 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:38:55,020 Watching for file changes with StatReloader
+2023-11-21 14:38:58,758 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:38:59,803 Watching for file changes with StatReloader
+2023-11-21 14:39:05,822 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:39:06,872 Watching for file changes with StatReloader
+2023-11-21 14:39:09,525 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:39:10,637 Watching for file changes with StatReloader
+2023-11-21 14:39:13,230 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:39:14,324 Watching for file changes with StatReloader
+2023-11-21 14:39:15,872 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:39:16,854 Watching for file changes with StatReloader
+2023-11-21 14:39:22,771 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:39:23,801 Watching for file changes with StatReloader
+2023-11-21 14:39:25,375 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:39:26,383 Watching for file changes with StatReloader
+2023-11-21 14:39:31,252 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:39:32,313 Watching for file changes with StatReloader
+2023-11-21 14:39:37,069 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:39:38,117 Watching for file changes with StatReloader
+2023-11-21 14:39:44,953 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:39:46,031 Watching for file changes with StatReloader
+2023-11-21 14:39:51,486 Internal Server Error: /api/doc/1/call_person/
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\fields.py", line 446, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\fields.py", line 96, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\abdul\Django_Prac\portfolio\project\views.py", line 516, in call_person
+    'data':serializer.data
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\fields.py", line 479, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `name` on serializer `DoctorSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'name'.
+2023-11-21 14:41:12,355 Internal Server Error: /api/doc/1400/call_person/
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\fields.py", line 446, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\fields.py", line 96, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\abdul\Django_Prac\portfolio\project\views.py", line 516, in call_person
+    'data':serializer.data
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\fields.py", line 479, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `name` on serializer `DoctorSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'name'.
+2023-11-21 14:41:35,555 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:41:36,665 Watching for file changes with StatReloader
+2023-11-21 14:41:39,228 Internal Server Error: /api/doc/1400/call_person/
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\fields.py", line 446, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\fields.py", line 96, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\abdul\Django_Prac\portfolio\project\views.py", line 517, in call_person
+    'data':serializer.data
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\fields.py", line 479, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `name` on serializer `DoctorSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'name'.
+2023-11-21 14:43:20,759 Watching for file changes with StatReloader
+2023-11-21 14:43:24,411 Internal Server Error: /api/doc/1400/call_person/
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\fields.py", line 446, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\fields.py", line 96, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\abdul\Django_Prac\portfolio\project\views.py", line 517, in call_person
+    'data':serializer.data
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\fields.py", line 479, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `name` on serializer `DoctorSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'name'.
+2023-11-21 14:43:45,625 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:43:46,697 Watching for file changes with StatReloader
+2023-11-21 14:43:49,277 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:43:50,321 Watching for file changes with StatReloader
+2023-11-21 14:43:55,168 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:43:56,240 Watching for file changes with StatReloader
+2023-11-21 14:43:57,806 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:43:58,930 Watching for file changes with StatReloader
+2023-11-21 14:44:05,373 Bad Request: /api/doc/
+2023-11-21 14:44:28,377 Method Not Allowed: /api/doc/Ashley Taylor/call_person/
+2023-11-21 14:44:32,842 Internal Server Error: /api/doc/Ashley Taylor/call_person/
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\fields.py", line 446, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\fields.py", line 96, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\abdul\Django_Prac\portfolio\project\views.py", line 517, in call_person
+    'data':serializer.data
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\fields.py", line 479, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `name` on serializer `DoctorSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'name'.
+2023-11-21 14:45:23,365 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:45:24,423 Watching for file changes with StatReloader
+2023-11-21 14:45:36,343 Watching for file changes with StatReloader
+2023-11-21 14:45:41,505 Internal Server Error: /api/doc/Ashley Taylor/call_person/
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\fields.py", line 446, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\fields.py", line 96, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\abdul\Django_Prac\portfolio\project\views.py", line 517, in call_person
+    'data':serializer.data
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\fields.py", line 479, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `name` on serializer `DoctorSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'name'.
+2023-11-21 14:47:53,583 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:47:54,693 Watching for file changes with StatReloader
+2023-11-21 14:48:03,821 Watching for file changes with StatReloader
+2023-11-21 14:49:04,952 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:49:06,095 Watching for file changes with StatReloader
+2023-11-21 14:49:08,712 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:49:09,819 Watching for file changes with StatReloader
+2023-11-21 14:49:13,689 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:49:14,807 Watching for file changes with StatReloader
+2023-11-21 14:49:38,660 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:49:39,835 Watching for file changes with StatReloader
+2023-11-21 14:49:43,533 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:49:44,615 Watching for file changes with StatReloader
+2023-11-21 14:50:20,456 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:50:21,547 Watching for file changes with StatReloader
+2023-11-21 14:50:24,214 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:50:25,255 Watching for file changes with StatReloader
+2023-11-21 14:50:29,018 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:50:30,126 Watching for file changes with StatReloader
+2023-11-21 14:50:32,709 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:50:33,867 Watching for file changes with StatReloader
+2023-11-21 14:50:35,350 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:50:36,380 Watching for file changes with StatReloader
+2023-11-21 14:50:40,046 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:50:41,112 Watching for file changes with StatReloader
+2023-11-21 14:50:45,915 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:50:46,962 Watching for file changes with StatReloader
+2023-11-21 14:50:48,422 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:50:49,469 Watching for file changes with StatReloader
+2023-11-21 14:50:57,488 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:50:58,530 Watching for file changes with StatReloader
+2023-11-21 14:52:08,648 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:52:09,649 Watching for file changes with StatReloader
+2023-11-21 14:52:14,395 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:52:15,507 Watching for file changes with StatReloader
+2023-11-21 14:52:16,986 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:52:17,958 Watching for file changes with StatReloader
+2023-11-21 14:52:20,519 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:52:21,574 Watching for file changes with StatReloader
+2023-11-21 14:52:24,126 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:52:25,170 Watching for file changes with StatReloader
+2023-11-21 14:52:32,087 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:52:33,205 Watching for file changes with StatReloader
+2023-11-21 14:52:45,636 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:52:46,616 Watching for file changes with StatReloader
+2023-11-21 14:53:03,221 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:53:04,216 Watching for file changes with StatReloader
+2023-11-21 14:53:14,407 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:53:15,513 Watching for file changes with StatReloader
+2023-11-21 14:53:18,211 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:53:19,285 Watching for file changes with StatReloader
+2023-11-21 14:53:21,940 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:53:22,989 Watching for file changes with StatReloader
+2023-11-21 14:53:24,570 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:53:25,588 Watching for file changes with StatReloader
+2023-11-21 14:53:32,639 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:53:33,669 Watching for file changes with StatReloader
+2023-11-21 14:53:39,563 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:53:40,589 Watching for file changes with StatReloader
+2023-11-21 14:53:43,258 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:53:44,360 Watching for file changes with StatReloader
+2023-11-21 14:53:50,310 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:53:51,373 Watching for file changes with StatReloader
+2023-11-21 14:53:58,446 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:53:59,522 Watching for file changes with StatReloader
+2023-11-21 14:54:04,360 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:54:05,396 Watching for file changes with StatReloader
+2023-11-21 14:54:08,062 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:54:09,137 Watching for file changes with StatReloader
+2023-11-21 14:54:29,670 Method Not Allowed: /api/doc/1400/get_docs/
+2023-11-21 14:54:34,244 Internal Server Error: /api/doc/1400/get_docs/
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\abdul\Django_Prac\portfolio\project\views.py", line 522, in get_docs
+    doc=self.queryset.filter(patients__pk=pk)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\sql\query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\sql\query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'patients' into field. Choices are: contact_number, doctor_of, hospital, id, name, specialization
+2023-11-21 14:58:05,129 Watching for file changes with StatReloader
+2023-11-21 14:58:08,990 Internal Server Error: /api/doc/1400/get_docs/
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\abdul\Django_Prac\portfolio\project\views.py", line 522, in get_docs
+    doc=self.queryset.filter(patients__pk=pk)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\sql\query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\sql\query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'patients' into field. Choices are: Patients, contact_number, hospital, id, name, specialization
+2023-11-21 14:58:21,415 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:58:22,469 Watching for file changes with StatReloader
+2023-11-21 14:58:24,023 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:58:25,181 Watching for file changes with StatReloader
+2023-11-21 14:59:22,727 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 14:59:23,818 Watching for file changes with StatReloader
+2023-11-21 15:01:45,110 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 15:01:46,093 Watching for file changes with StatReloader
+2023-11-21 15:02:12,927 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 15:02:14,056 Watching for file changes with StatReloader
+2023-11-21 15:04:17,495 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 15:04:18,632 Watching for file changes with StatReloader
+2023-11-21 15:04:33,417 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 15:04:34,486 Watching for file changes with StatReloader
+2023-11-21 15:05:07,869 Internal Server Error: /api/pat/
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\abdul\Django_Prac\portfolio\project\views.py", line 557, in list
+    queryset = queryset.get(Q(name__icontains=name)).all()
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\db\models\query.py", line 640, in get
+    raise self.model.MultipleObjectsReturned(
+project.models.Patient.MultipleObjectsReturned: get() returned more than one Patient -- it returned 4!
+2023-11-21 15:05:19,287 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 15:05:20,373 Watching for file changes with StatReloader
+2023-11-21 15:05:21,744 Internal Server Error: /api/pat/
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\fields.py", line 446, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\fields.py", line 96, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\abdul\Django_Prac\portfolio\project\views.py", line 561, in list
+    return Response(serializer.data)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Users\abdul\AppData\Roaming\Python\Python38\site-packages\rest_framework\fields.py", line 479, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `name` on serializer `PatientSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'name'.
+2023-11-21 15:09:18,254 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 15:09:19,343 Watching for file changes with StatReloader
+2023-11-21 15:09:33,509 Watching for file changes with StatReloader
+2023-11-21 15:13:16,957 C:\Users\abdul\Django_Prac\portfolio\portfolio\settings.py changed, reloading.
+2023-11-21 15:13:17,995 Watching for file changes with StatReloader
+2023-11-21 15:15:38,843 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 15:15:39,990 Watching for file changes with StatReloader
+2023-11-21 15:15:41,566 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 15:15:42,648 Watching for file changes with StatReloader
+2023-11-21 15:15:46,428 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 15:15:47,516 Watching for file changes with StatReloader
+2023-11-21 15:15:51,304 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 15:15:52,384 Watching for file changes with StatReloader
+2023-11-21 15:15:56,139 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 15:15:57,195 Watching for file changes with StatReloader
+2023-11-21 15:15:58,830 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 15:15:59,950 Watching for file changes with StatReloader
+2023-11-21 15:16:04,865 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 15:16:06,012 Watching for file changes with StatReloader
+2023-11-21 15:16:11,995 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 15:16:13,097 Watching for file changes with StatReloader
+2023-11-21 15:16:14,593 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 15:16:15,654 Watching for file changes with StatReloader
+2023-11-21 15:16:18,216 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 15:16:19,322 Watching for file changes with StatReloader
+2023-11-21 15:16:22,957 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 15:16:24,038 Watching for file changes with StatReloader
+2023-11-21 15:16:32,193 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 15:16:33,275 Watching for file changes with StatReloader
+2023-11-21 15:16:34,841 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 15:16:35,843 Watching for file changes with StatReloader
+2023-11-21 15:16:37,432 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 15:16:38,504 Watching for file changes with StatReloader
+2023-11-21 15:16:44,473 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 15:16:45,671 Watching for file changes with StatReloader
+2023-11-21 15:16:55,893 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 15:16:57,006 Watching for file changes with StatReloader
+2023-11-21 15:17:47,819 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 15:17:48,850 Watching for file changes with StatReloader
+2023-11-21 15:17:51,544 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 15:17:52,598 Watching for file changes with StatReloader
+2023-11-21 15:17:54,222 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 15:17:55,292 Watching for file changes with StatReloader
+2023-11-21 15:17:59,080 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 15:18:00,147 Watching for file changes with StatReloader
+2023-11-21 15:18:02,797 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 15:18:03,829 Watching for file changes with StatReloader
+2023-11-21 15:18:17,494 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 15:18:18,560 Watching for file changes with StatReloader
+2023-11-21 15:18:21,229 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 15:18:22,221 Watching for file changes with StatReloader
+2023-11-21 15:18:24,874 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 15:18:25,841 Watching for file changes with StatReloader
+2023-11-21 15:18:36,106 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 15:18:37,206 Watching for file changes with StatReloader
+2023-11-21 15:18:42,078 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 15:18:43,221 Watching for file changes with StatReloader
+2023-11-21 15:18:58,116 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 15:18:59,189 Watching for file changes with StatReloader
+2023-11-21 15:19:00,733 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 15:19:01,858 Watching for file changes with StatReloader
+2023-11-21 15:19:03,336 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 15:19:04,390 Watching for file changes with StatReloader
+2023-11-21 15:19:07,022 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 15:19:08,100 Watching for file changes with StatReloader
+2023-11-21 15:28:21,066 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 15:28:22,141 Watching for file changes with StatReloader
+2023-11-21 16:05:14,893 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 16:05:16,600 Watching for file changes with StatReloader
+2023-11-21 16:11:05,247 C:\Users\abdul\Django_Prac\portfolio\project\serializers.py changed, reloading.
+2023-11-21 16:11:07,352 Watching for file changes with StatReloader
+2023-11-21 16:16:21,930 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
+2023-11-21 16:16:23,987 Watching for file changes with StatReloader
