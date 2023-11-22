@@ -31,6 +31,9 @@ from rest_framework.authtoken.models import Token
 from rest_framework.filters import SearchFilter, OrderingFilter
 from rest_framework.generics import ListAPIView
 from django_filters.rest_framework import FilterSet
+from rest_framework.authentication import SessionAuthentication
+from rest_framework.permissions import IsAdminUser, IsAuthenticatedOrReadOnly
+from .custompermission import Mypermission
 
 
 class LoginApi(APIView):
@@ -215,16 +218,6 @@ class AuthorDeleteView(DeleteView):
 
 
 # Django Rest Framework Functions
-@api_view(["GET"])
-def index(request):
-    courses = {
-        "course_name": "Python",
-        "learn": ["Flask", "django", "FastApi"],
-        "course_provider": "scaler",
-    }
-    return Response(courses)
-
-
 @api_view(["GET", "POST", "PUT", "PATCH", "DELETE"])
 def Doctors(request):
     if request.method == "GET":
@@ -503,8 +496,8 @@ class PatientAPI(APIView):
 class DoctorViewSet(viewsets.ModelViewSet):
     serializer_class = DoctorSerializer
     queryset = Doctor.objects.all()
-    filter_backends = (SearchFilter, OrderingFilter)
-    search_fields = ("name", "specialization")
+    permission_classes = [IsAdminUser]
+    authentication_classes = [SessionAuthentication]
 
     def list(self, request):
         name = request.GET.get("name")
@@ -536,6 +529,8 @@ class DoctorViewSet(viewsets.ModelViewSet):
 class NurseViewSet(viewsets.ModelViewSet):
     serializer_class = NurseSerializer
     queryset = Nurse.objects.all()
+    authentication_classes = [SessionAuthentication]
+    permission_classes = [IsAuthenticatedOrReadOnly]
 
     def list(self, request):
         name = request.GET.get("name")
@@ -551,6 +546,8 @@ class NurseViewSet(viewsets.ModelViewSet):
 class PatientViewSet(viewsets.ModelViewSet):
     serializer_class = PatientSerializer
     queryset = Patient.objects.all()
+    authentication_classes = [SessionAuthentication]
+    permission_classes = [Mypermission]
 
     def list(self, request):
         name = request.GET.get("name")

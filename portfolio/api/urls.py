@@ -1,5 +1,4 @@
 from project.views import (
-    index,
     Doctors,
     Nurses,
     Patients,
@@ -29,8 +28,9 @@ urlpatterns = router.urls
 urlpatterns = [
     # Model Viewsets
     path("", include(router.urls)),
+    # Session Authentication
+    path("auth/", include("rest_framework.urls", namespace="rest_framework")),
     # Simple Function Model Serializer
-    path("index/", index),
     path("doctor/", Doctors),
     path("nurse/", Nurses),
     path("patient/", Patients),
