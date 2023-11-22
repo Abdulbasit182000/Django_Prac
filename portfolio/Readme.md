@@ -11,7 +11,7 @@
 - Now Migrate using:
 
         python manage.py migrate
-         
+
 - To Fill Database write: 500 is the number to rows to populate database
 
         py manage.py fill_db 500
@@ -150,7 +150,7 @@
 - Find the doctors who have not been assigned any patients.
 
         Doctor.objects.annotate(num_patients=Count('patients')).filter(num_patients=0).values()
-    
+
 - Retrieve the patients who have medical records with a specific prescription.
 
         Patient.objects.filter(records__perscription='Full network describe structure stage most. Employee vote community usually leave.').distinct().values()
@@ -182,7 +182,7 @@
 - Find the nurses who have patients with a specific age group.
 
         Nurse.objects.filter(patients__age__gt=20,patients__age__lt=50).distinct().values()
-      
+
 - Retrieve the doctors who have patients with a specific diagnosis and age group.
 
         Doctor.objects.filter(patients__age__gt=20,patients__age__lt=50,patients__records__diagnoses='Current significant law pay should inside stop important.').distinct().values()

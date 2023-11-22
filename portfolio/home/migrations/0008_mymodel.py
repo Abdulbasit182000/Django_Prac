@@ -7,15 +7,23 @@ import home.models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('home', '0007_test'),
+        ("home", "0007_test"),
     ]
 
     operations = [
         migrations.CreateModel(
-            name='Mymodel',
+            name="Mymodel",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('num', home.models.Even_Integer()),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("num", home.models.Even_Integer()),
             ],
         ),
     ]

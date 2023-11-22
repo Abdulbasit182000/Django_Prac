@@ -24,7 +24,7 @@ def contact(request):
         name = request.POST["name"]
         specialization = request.POST["specialization"]
         phone = request.POST["phone"]
-        print(name,specialization, phone)
-        ins = Doctor(name=name, specialization=specialization,contact_number=phone)
+        print(name, specialization, phone)
+        ins = Doctor(name=name, specialization=specialization, contact_number=phone)
         ins.save()
     return render(request, "contact.html")

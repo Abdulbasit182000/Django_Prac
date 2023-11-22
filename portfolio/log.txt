@@ -5829,3 +5829,4 @@ Original exception text was: 'QuerySet' object has no attribute 'name'.
 2023-11-21 16:11:07,352 Watching for file changes with StatReloader
 2023-11-21 16:16:21,930 C:\Users\abdul\Django_Prac\portfolio\project\views.py changed, reloading.
 2023-11-21 16:16:23,987 Watching for file changes with StatReloader
+2023-11-21 17:38:45,523 Watching for file changes with StatReloader

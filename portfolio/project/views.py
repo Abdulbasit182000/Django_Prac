@@ -11,7 +11,7 @@ from .models import Publisher, Book, Author
 from django.urls import reverse
 from django.views.generic.edit import CreateView, DeleteView, UpdateView
 from .forms import *
-from rest_framework.decorators import api_view,action
+from rest_framework.decorators import api_view, action
 from django.core.paginator import Paginator
 from rest_framework.response import Response
 from .serializers import (
@@ -27,6 +27,8 @@ from rest_framework import viewsets, status
 from django.contrib.auth.models import User
 from django.contrib.auth import authenticate
 from rest_framework.authtoken.models import Token
+from rest_framework.filters import SearchFilter, OrderingFilter
+
 
 class LoginApi(APIView):
     def post(self, request):
@@ -41,9 +43,12 @@ class LoginApi(APIView):
             username=serializer.data["username"], password=serializer.data["password"]
         )
         token, _ = Token.objects.get_or_create(user=user)
-        return Response((
-            {"status": True, "message": "user loged in", 'token':str(token)}, status.HTTP_200_OK
-        ))
+        return Response(
+            (
+                {"status": True, "message": "user loged in", "token": str(token)},
+                status.HTTP_200_OK,
+            )
+        )
 
 
 class RegisterAPI(APIView):
@@ -360,13 +365,13 @@ def Patients(request):
 class DoctorAPI(APIView):
     def get(self, request):
         name = request.GET.get("name")
-        page = request.GET.get('page',1)
+        page = request.GET.get("page", 1)
         page_size = 3
         if name is not None:
             docs = Doctor.objects.filter(Q(name__icontains=name)).all()
         else:
             docs = Doctor.objects.all()
-        paginator=Paginator(docs, page_size)
+        paginator = Paginator(docs, page_size)
         serializer = DoctorSerializer(paginator.page(page), many=True)
         return Response(serializer.data)
 
@@ -499,6 +504,8 @@ class PatientAPI(APIView):
 class DoctorViewSet(viewsets.ModelViewSet):
     serializer_class = DoctorSerializer
     queryset = Doctor.objects.all()
+    filter_backends = (SearchFilter, OrderingFilter)
+    search_fields = ("name", "specialization")
 
     def list(self, request):
         name = request.GET.get("name")
@@ -510,32 +517,27 @@ class DoctorViewSet(viewsets.ModelViewSet):
         serializer = DoctorSerializer(queryset, many=True)
         return Response(serializer.data)
 
-    @action(detail=True, methods=['get'])
-    def call_person(self, request,pk):
-        doc=self.queryset.filter(name=pk)
-        serializer=DoctorSerializer(doc, many=True)
-        return Response({
-            'status':True,
-            'message':'call successful',
-            'data':serializer.data
-        }
-        )
-    
-    @action(detail=True,methods=['get'])
-    def get_docs(self,request,pk):
-        doc=self.queryset.filter(Patients__name=pk)
-        serializer=DoctorSerializer(doc, many=True)
-        return Response({
-            'status':True,
-            'message':'Patients Doctors',
-            'data':serializer.data
-        }
+    @action(detail=True, methods=["get"])
+    def call_person(self, request, pk):
+        doc = self.queryset.filter(name=pk)
+        serializer = DoctorSerializer(doc, many=True)
+        return Response(
+            {"status": True, "message": "call successful", "data": serializer.data}
         )
 
-    
+    @action(detail=True, methods=["get"])
+    def get_docs(self, request, pk):
+        doc = self.queryset.filter(Patients__name=pk)
+        serializer = DoctorSerializer(doc, many=True)
+        return Response(
+            {"status": True, "message": "Patients Doctors", "data": serializer.data}
+        )
+
+
 class NurseViewSet(viewsets.ModelViewSet):
     serializer_class = NurseSerializer
     queryset = Nurse.objects.all()
+
     def list(self, request):
         name = request.GET.get("name")
         queryset = self.queryset

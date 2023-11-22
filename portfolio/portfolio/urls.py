@@ -18,14 +18,14 @@ from django.contrib import admin
 from django.urls import path
 from django.urls import include
 
-admin.site.site_header='Home Admin'
-admin.site.site_title='My_Site_Name'
-admin.site.index_title='Random Text'
+admin.site.site_header = "Home Admin"
+admin.site.site_title = "My_Site_Name"
+admin.site.index_title = "Random Text"
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', include('project.urls')),
+    path("admin/", admin.site.urls),
+    path("", include("project.urls")),
     path("__debug__/", include("debug_toolbar.urls")),
-    path('api-auth/', include('rest_framework.urls')),
-    path('api/', include('api.urls')),
+    path("api-auth/", include("rest_framework.urls")),
+    path("api/", include("api.urls")),
 ]

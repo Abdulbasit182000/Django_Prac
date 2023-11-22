@@ -36,15 +36,14 @@ class Command(BaseCommand):
             patient.doctor.set(random.sample(doctors, k=faker.random_int(1, 10)))
         patients = list(Patient.objects.all())
         for _ in range(count):
-            MedicalRecord.objects.create( #Fake Record
+            MedicalRecord.objects.create(  # Fake Record
                 patient=random.choice(patients),
                 diagnoses=faker.sentence(),
                 perscription=faker.paragraph(),
             )
         for i in range(len(patients)):
-            hospital= Hospital.objects.create( #Fake Hospital Record
+            hospital = Hospital.objects.create(  # Fake Hospital Record
                 patient=patients[i],
-                nurse= patients[i].nurse,
+                nurse=patients[i].nurse,
             )
             hospital.doctor.set(patients[i].doctor.all())
-

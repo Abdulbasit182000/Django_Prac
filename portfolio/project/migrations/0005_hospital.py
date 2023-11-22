@@ -7,17 +7,37 @@ import django.db.models.deletion
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('project', '0004_alter_medicalrecord_patient_alter_patient_doctor_and_more'),
+        ("project", "0004_alter_medicalrecord_patient_alter_patient_doctor_and_more"),
     ]
 
     operations = [
         migrations.CreateModel(
-            name='Hospital',
+            name="Hospital",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('doctor', models.ManyToManyField(to='project.doctor')),
-                ('nurse', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='project.nurse')),
-                ('patient', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='Hospitals', to='project.patient')),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("doctor", models.ManyToManyField(to="project.doctor")),
+                (
+                    "nurse",
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE, to="project.nurse"
+                    ),
+                ),
+                (
+                    "patient",
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE,
+                        related_name="Hospitals",
+                        to="project.patient",
+                    ),
+                ),
             ],
         ),
     ]

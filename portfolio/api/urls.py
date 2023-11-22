@@ -10,7 +10,7 @@ from project.views import (
     NurseViewSet,
     PatientViewSet,
     RegisterAPI,
-    LoginApi
+    LoginApi,
 )
 
 from django.urls import path, include
@@ -35,6 +35,6 @@ urlpatterns = [
     path("doctors/", DoctorAPI.as_view()),
     path("nurses/", NurseAPI.as_view()),
     path("patients/", PatientAPI.as_view()),
-    path('register/',RegisterAPI.as_view()),
-    path('login/',LoginApi.as_view()),
+    path("register/", RegisterAPI.as_view()),
+    path("login/", LoginApi.as_view()),
 ]

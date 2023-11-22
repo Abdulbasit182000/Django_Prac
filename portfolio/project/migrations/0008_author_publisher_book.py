@@ -7,43 +7,73 @@ import django.db.models.deletion
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('project', '0007_alter_patient_date_admitted'),
+        ("project", "0007_alter_patient_date_admitted"),
     ]
 
     operations = [
         migrations.CreateModel(
-            name='Author',
+            name="Author",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('salutation', models.CharField(max_length=10)),
-                ('name', models.CharField(max_length=200)),
-                ('email', models.EmailField(max_length=254)),
-                ('headshot', models.ImageField(upload_to='author_headshots')),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("salutation", models.CharField(max_length=10)),
+                ("name", models.CharField(max_length=200)),
+                ("email", models.EmailField(max_length=254)),
+                ("headshot", models.ImageField(upload_to="author_headshots")),
             ],
         ),
         migrations.CreateModel(
-            name='Publisher',
+            name="Publisher",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('name', models.CharField(max_length=30)),
-                ('address', models.CharField(max_length=50)),
-                ('city', models.CharField(max_length=60)),
-                ('state_province', models.CharField(max_length=30)),
-                ('country', models.CharField(max_length=50)),
-                ('website', models.URLField()),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("name", models.CharField(max_length=30)),
+                ("address", models.CharField(max_length=50)),
+                ("city", models.CharField(max_length=60)),
+                ("state_province", models.CharField(max_length=30)),
+                ("country", models.CharField(max_length=50)),
+                ("website", models.URLField()),
             ],
             options={
-                'ordering': ['-name'],
+                "ordering": ["-name"],
             },
         ),
         migrations.CreateModel(
-            name='Book',
+            name="Book",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('title', models.CharField(max_length=100)),
-                ('publication_date', models.DateField()),
-                ('authors', models.ManyToManyField(to='project.author')),
-                ('publisher', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='project.publisher')),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("title", models.CharField(max_length=100)),
+                ("publication_date", models.DateField()),
+                ("authors", models.ManyToManyField(to="project.author")),
+                (
+                    "publisher",
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE,
+                        to="project.publisher",
+                    ),
+                ),
             ],
         ),
     ]

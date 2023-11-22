@@ -9,21 +9,24 @@ class RegisterSerizlizer(serializers.Serializer):
     password = serializers.CharField()
 
     def validate(self, data):
-        if data['username']:
-            if User.objects.filter(username= data['username']).exists():
-                raise serializers.ValidationError('username is taken')
+        if data["username"]:
+            if User.objects.filter(username=data["username"]).exists():
+                raise serializers.ValidationError("username is taken")
 
-        if data['email']:
-            if User.objects.filter(email= data['email']).exists():
-                raise serializers.ValidationError('email is taken') 
-        
+        if data["email"]:
+            if User.objects.filter(email=data["email"]).exists():
+                raise serializers.ValidationError("email is taken")
+
         return data
+
     def create(self, validated_data):
-        user = User.objects.create(username= validated_data['username'], email=validated_data['email'])
-        user.set_password(validated_data['password'])
+        user = User.objects.create(
+            username=validated_data["username"], email=validated_data["email"]
+        )
+        user.set_password(validated_data["password"])
         user.save()
         return validated_data
-    
+
 
 class LoginSerializer(serializers.Serializer):
     username = serializers.CharField()
@@ -31,7 +34,6 @@ class LoginSerializer(serializers.Serializer):
 
 
 class DoctorSerializer(serializers.ModelSerializer):
-    
     class Meta:
         model = Doctor
         fields = "__all__"  # for all fields, if you want specific use fields=['name','x','y']

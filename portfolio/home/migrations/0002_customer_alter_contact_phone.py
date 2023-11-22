@@ -7,23 +7,31 @@ import home.models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('home', '0001_initial'),
+        ("home", "0001_initial"),
     ]
 
     operations = [
         migrations.CreateModel(
-            name='Customer',
+            name="Customer",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('name', models.CharField(max_length=200, null=True)),
-                ('phone', models.CharField(max_length=200, null=True)),
-                ('email', models.CharField(max_length=200, null=True)),
-                ('date_created', models.DateTimeField(auto_now_add=True, null=True)),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("name", models.CharField(max_length=200, null=True)),
+                ("phone", models.CharField(max_length=200, null=True)),
+                ("email", models.CharField(max_length=200, null=True)),
+                ("date_created", models.DateTimeField(auto_now_add=True, null=True)),
             ],
         ),
         migrations.AlterField(
-            model_name='contact',
-            name='phone',
+            model_name="contact",
+            name="phone",
             field=models.CharField(max_length=13, validators=[home.models.int_even]),
         ),
     ]

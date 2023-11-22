@@ -6,22 +6,30 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('home', '0008_mymodel'),
+        ("home", "0008_mymodel"),
     ]
 
     operations = [
         migrations.CreateModel(
-            name='Animal',
+            name="Animal",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('legs', models.IntegerField()),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("legs", models.IntegerField()),
             ],
             options={
-                'db_table': 'Pets',
+                "db_table": "Pets",
             },
         ),
         migrations.RenameModel(
-            old_name='Mymodel',
-            new_name='My_model',
+            old_name="Mymodel",
+            new_name="My_model",
         ),
     ]

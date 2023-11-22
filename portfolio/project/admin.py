@@ -35,25 +35,27 @@ class DoctorsList(SimpleListFilter):
                 queryset = queryset.none()
         return queryset
 
+
 class AgeRangeList(SimpleListFilter):
     title = _("Age Range")
     parameter_name = "Age Ranges"
 
     def lookups(self, request, model_admin):
-        return (("18-34", "18-34"),
-                ("35-49", "35-49"),
-                ('50+','50+'),
-                )
+        return (
+            ("18-34", "18-34"),
+            ("35-49", "35-49"),
+            ("50+", "50+"),
+        )
 
     def queryset(self, request, queryset):
         if self.value() == "18-35":
-            queryset=queryset.filter(age__gte=20,age__lte=34)
-        
+            queryset = queryset.filter(age__gte=20, age__lte=34)
+
         if self.value() == "35-49":
-            queryset=queryset.filter(age__gte=35,age__lte=49)
-        
+            queryset = queryset.filter(age__gte=35, age__lte=49)
+
         if self.value() == "50+":
-            queryset=queryset.filter(age__gte=50)
+            queryset = queryset.filter(age__gte=50)
 
         return queryset
 
@@ -63,19 +65,18 @@ class SpecificDate(SimpleListFilter):
     parameter_name = "Dates"
 
     def lookups(self, request, model_admin):
-        return (('2015-07-07', '2015-07-07'),
-                )
+        return (("2015-07-07", "2015-07-07"),)
 
     def queryset(self, request, queryset):
-        if self.value() == '2015-07-07':
-            queryset=queryset.filter(date_admitted=self.value())
+        if self.value() == "2015-07-07":
+            queryset = queryset.filter(date_admitted=self.value())
 
         return queryset
 
 
 @admin.register(Patient)
 class PatientAdmin(admin.ModelAdmin):
-    list_filter = (DoctorsList,AgeRangeList,SpecificDate)
+    list_filter = (DoctorsList, AgeRangeList, SpecificDate)
 
 
 @admin.register(Doctor)

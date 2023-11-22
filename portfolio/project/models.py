@@ -34,7 +34,7 @@ class Hospital(models.Model):
     patient = models.ForeignKey(
         Patient, on_delete=models.CASCADE, related_name="hospitals"
     )
-    doctor = models.ManyToManyField(Doctor, related_name='hospitals')
+    doctor = models.ManyToManyField(Doctor, related_name="hospitals")
     nurse = models.ForeignKey(Nurse, on_delete=models.CASCADE, default=1)
 
 
@@ -45,7 +45,8 @@ class MedicalRecord(models.Model):
     diagnoses = models.TextField()
     perscription = models.TextField()
 
-#Test for Class Based Views
+
+# Test for Class Based Views
 
 
 class Publisher(models.Model):
@@ -70,10 +71,10 @@ class Author(models.Model):
 
     def __str__(self):
         return self.name
-    
+
     def get_absolute_url(self):
         # return self.name
-        return reverse("author-detail",kwargs={'pk':self.pk})
+        return reverse("author-detail", kwargs={"pk": self.pk})
 
 
 class Book(models.Model):

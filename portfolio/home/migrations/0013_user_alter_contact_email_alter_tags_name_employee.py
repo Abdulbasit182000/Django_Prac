@@ -6,38 +6,47 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('home', '0012_alter_product_description'),
+        ("home", "0012_alter_product_description"),
     ]
 
     operations = [
         migrations.CreateModel(
-            name='User',
+            name="User",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('name', models.CharField(max_length=100)),
-                ('age', models.IntegerField()),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("name", models.CharField(max_length=100)),
+                ("age", models.IntegerField()),
             ],
         ),
         migrations.AlterField(
-            model_name='contact',
-            name='email',
-            field=models.EmailField(error_messages='email not of correct type', max_length=254),
+            model_name="contact",
+            name="email",
+            field=models.EmailField(
+                error_messages="email not of correct type", max_length=254
+            ),
         ),
         migrations.AlterField(
-            model_name='tags',
-            name='name',
-            field=models.CharField(help_text='Name of Tag', max_length=200, null=True),
+            model_name="tags",
+            name="name",
+            field=models.CharField(help_text="Name of Tag", max_length=200, null=True),
         ),
         migrations.CreateModel(
-            name='Employee',
-            fields=[
-            ],
+            name="Employee",
+            fields=[],
             options={
-                'ordering': ('name', 'age'),
-                'proxy': True,
-                'indexes': [],
-                'constraints': [],
+                "ordering": ("name", "age"),
+                "proxy": True,
+                "indexes": [],
+                "constraints": [],
             },
-            bases=('home.user',),
+            bases=("home.user",),
         ),
     ]

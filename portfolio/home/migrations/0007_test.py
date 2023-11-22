@@ -7,15 +7,26 @@ import home.models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('home', '0006_remove_order_tag_product_tag'),
+        ("home", "0006_remove_order_tag_product_tag"),
     ]
 
     operations = [
         migrations.CreateModel(
-            name='test',
+            name="test",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('name', models.CharField(max_length=20, validators=[home.models.end_with])),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                (
+                    "name",
+                    models.CharField(max_length=20, validators=[home.models.end_with]),
+                ),
             ],
         ),
     ]

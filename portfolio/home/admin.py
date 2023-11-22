@@ -12,8 +12,9 @@ from django.core import management
 import logging
 
 
-logging.basicConfig(filename="log.txt", level=logging.DEBUG,
-                    format="%(asctime)s %(message)s")
+logging.basicConfig(
+    filename="log.txt", level=logging.DEBUG, format="%(asctime)s %(message)s"
+)
 
 
 # Register your models here.
@@ -38,9 +39,9 @@ class CustomerListDisplay(admin.ModelAdmin):
     def add_ten_Customers(self, request):
         success = management.call_command("num_user", "10")
         if success:
-            logging.info('worked')
+            logging.info("worked")
         else:
-            logging.error('their was an error')
+            logging.error("their was an error")
         return HttpResponseRedirect("../")
 
 

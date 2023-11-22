@@ -6,20 +6,28 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('home', '0004_order_customer_order_product'),
+        ("home", "0004_order_customer_order_product"),
     ]
 
     operations = [
         migrations.CreateModel(
-            name='tags',
+            name="tags",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('name', models.CharField(max_length=200, null=True)),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("name", models.CharField(max_length=200, null=True)),
             ],
         ),
         migrations.AddField(
-            model_name='order',
-            name='tag',
-            field=models.ManyToManyField(to='home.tags'),
+            model_name="order",
+            name="tag",
+            field=models.ManyToManyField(to="home.tags"),
         ),
     ]

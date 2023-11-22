@@ -6,22 +6,22 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('project', '0011_alter_hospital_doctor'),
+        ("project", "0011_alter_hospital_doctor"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='hospital',
-            name='name',
-            field=models.CharField(default='hospital', max_length=100),
+            model_name="hospital",
+            name="name",
+            field=models.CharField(default="hospital", max_length=100),
         ),
         migrations.RemoveField(
-            model_name='hospital',
-            name='nurse',
+            model_name="hospital",
+            name="nurse",
         ),
         migrations.AddField(
-            model_name='hospital',
-            name='nurse',
-            field=models.ManyToManyField(related_name='hospitals', to='project.nurse'),
+            model_name="hospital",
+            name="nurse",
+            field=models.ManyToManyField(related_name="hospitals", to="project.nurse"),
         ),
     ]
