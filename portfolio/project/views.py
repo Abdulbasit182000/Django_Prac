@@ -14,6 +14,7 @@ from .forms import *
 from rest_framework.decorators import api_view, action
 from django.core.paginator import Paginator
 from rest_framework.response import Response
+from django_filters.rest_framework import DjangoFilterBackend
 from .serializers import (
     DoctorSerializer,
     NurseSerializer,
@@ -28,6 +29,8 @@ from django.contrib.auth.models import User
 from django.contrib.auth import authenticate
 from rest_framework.authtoken.models import Token
 from rest_framework.filters import SearchFilter, OrderingFilter
+from rest_framework.generics import ListAPIView
+from django_filters.rest_framework import FilterSet
 
 
 class LoginApi(APIView):
@@ -108,8 +111,6 @@ class AnotherGreeting(Greeting):
 
 
 # Test for Django class Based on Models
-
-
 class PublisherListView(ListView):
     model = Publisher
     context_object_name = "my_publishers"
@@ -214,8 +215,6 @@ class AuthorDeleteView(DeleteView):
 
 
 # Django Rest Framework Functions
-
-
 @api_view(["GET"])
 def index(request):
     courses = {
@@ -562,3 +561,28 @@ class PatientViewSet(viewsets.ModelViewSet):
             pass
         serializer = PatientSerializer(queryset, many=True)
         return Response(serializer.data)
+
+
+# Search Filter
+class DoctorList(ListAPIView):
+    queryset = Doctor.objects.all()
+    serializer_class = DoctorSerializer
+    filter_backends = [SearchFilter, OrderingFilter]
+    ordering_fields = ["name", "specialization"]
+    search_fields = ["^contact_number", "^name"]
+
+
+class NurseList(ListAPIView):
+    queryset = Nurse.objects.all()
+    serializer_class = NurseSerializer
+    filter_backends = [SearchFilter, OrderingFilter]
+    ordering_fields = ["name"]
+    search_fields = ["^contact_number", "^name"]
+
+
+class PatientList(ListAPIView):
+    queryset = Patient.objects.all()
+    serializer_class = PatientSerializer
+    filter_backends = [SearchFilter, OrderingFilter]
+    ordering_fields = ["name", "age"]
+    search_fields = ["doctor__name"]
